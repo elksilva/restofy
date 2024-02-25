@@ -6,21 +6,6 @@
     position: static !important; 
 }
 
-/* @media (min-width:  404px) { 
-    .navbarmod {
-        display: grid !important;
-        grid-template-columns: repeat(2, 1fr)
-    }
-}
-
-@media (min-width:  404px) { 
-    .boton-amburguesa {
-        grid-column: 2/3;
-        grid-row: 2/3;
-        text-align: right;
-    }
-} */
-
 .boton-amburguesa {
     margin-left: auto !important;
     margin-right: 0.5rem !important;

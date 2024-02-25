@@ -1,0 +1,1951 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> -->
+
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <title>Restofy - Sistema para Restaurantes </title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="assets/css/template.css" rel="stylesheet"/>
+    <link href="assets/css/styles.css" rel="stylesheet"/>
+    <link href="assets/css/custom.css" rel="stylesheet"/>
+</head>
+
+<body>
+<!-- Navbar Light -->
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white z-index-3 py-3 opacity-98">
+    <div class="container navbarmod">
+        <a class="navbar-brand" href="index.html" rel="tooltip" title="Restofy - Sistema para Restaurantes" data-placement="bottom" target="_blank">
+            <img src="assets/img/otros/logonav.svg" alt="logo restofy" width: 100% !important" height="30" class="logonav position-absolute start-0 top-0 w-100">
+        </a>
+
+        <a href="#" class="btn btn-sm  bg-gradient-primary  btn-round mb-0 ms-auto d-lg-none d-block">Prueba gratis
+        </a>
+
+        <button class="boton-amburguesa navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon mt-2">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+            </span>
+        </button>
+
+        <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
+            <ul class="navbar-nav navbar-nav-hover mx-auto">
+                <li class="nav-item mx-2">
+                    <a class="style-linea nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" role="button" href="demo.pilotto.app">
+                        Demo
+                    </a>
+                </li>
+
+                <li class="nav-item mx-2">
+                    <a class="style-linea nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" href="precios.pilotto.app" role="button">
+                        Precios
+                    </a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a href="ayuda.pilotto.app" class="style-linea nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" role="button">
+                        Ayuda
+                    </a>
+                </li>
+
+                <li class="nav-item mx-2">
+                    <a class="style-linea nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" role="button">
+                        Faq
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav d-lg-block d-none">
+                <li class="nav-item">
+                    <a href="https://www.creative-tim.com/product/material-design-system-pro#pricingCard" class="btn btn-lg  bg-gradient-primary  mb-0 me-1" role="button">Prueba gratis</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- End Navbar -->
+
+<!-- Header -->
+<section class="pt-9 pb-4 position-relative overflow-hidden">
+    <img src="assets/img/shapes/waves-white.svg" alt="pattern-lines" class="position-absolute start-0 top-0 w-100 opacity-1">
+    <div class="container d-flex align-items-center text-center position-relative">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 my-auto">
+                <h2>Sistema especializado en la gestión integral de restaurantes</h2>
+                <p>Restofy es un sistema diseñado para solucionar y facilitar la gestión de tu restaurante. Simplifica pedidos, controla inventarios y haz que la administración de tu negocio sea más fácil que nunca. </p>
+                <button type="button" class="btn bg-gradient-warning btn-lg">Prueba Gratis Ahora</button>
+            </div>
+            <div class="col-lg-8 col-md-12 mt-4 mb-auto">
+                <img class="w-100 fadeIn2 fadeInBottom" src="assets/img/otros/macbook.png" alt="mac-2" loading="lazy" >
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- A que nogicio va dirigido Restofy -->
+<section class="py-0">
+    <div class="container py-5">
+        <div class="row">
+            <h2 class="mx-2 text-center mb-6">Restofy está especiamente diseñado</h2>
+            <div class="col-lg-3 col-sm-6">
+                <div class="p-3 text-center">
+                    <div class="ico-flex icon icon-shape icon-md bg-gradient-danger shadow-danger mx-auto">
+                        <img src="assets/img/otros/icorestaurante.svg" alt="icono restaurante">
+                    </div>
+                    <h5 class="mt-4">Restaurantes</h5>
+                    <p>Lugares que ofrecen una variedad de comidas y bebidas para satisfacer diferentes gustos y ocasiones, desde cenas elegantes hasta almuerzos rápidos.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="p-3 text-center">
+                    <div class="ico-flex icon icon-shape icon-md bg-gradient-danger shadow-danger mx-auto">
+                        <img src="assets/img/otros/iconcafe.svg" alt="icono bares">
+                    </div>
+                    <h5 class="mt-4">Cafés</h5>
+                    <p>Espacios acogedores donde se sirven café, té y aperitivos ligeros, proporcionando un ambiente relajado para socializar o trabajar.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="p-3 text-center">
+                    <div class="ico-flex icon icon-shape icon-md bg-gradient-danger shadow-danger mx-auto">
+                        <img src="assets/img/otros/iconbares.svg" alt="icono restaurante">
+                    </div>
+                    <h5 class="mt-4">Bares</h5>
+                    <p>Establecimientos que ofrecen bebidas alcohólicas y no alcohólicas, junto con un ambiente animado para socializar y relajarse con amigos.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="p-3 text-center">
+                    <div class="ico-flex icon icon-shape icon-md bg-gradient-danger shadow-danger mx-auto">
+                        <img src="assets/img/otros/icopanaderia.svg" alt="icono restaurante">
+                    </div>
+                    <h5 class="mt-4">Panaderías y más</h5>
+                    <p>Tiendas especializadas en la producción y venta de productos horneados frescos, como pan, pasteles y bollos, para disfrutar en cualquier momento del día.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Control y Automatización para tu Restaurante Disminuye fugas de dinero e inventario -->
+<section class="d-flex justify-content-center align-items-center">
+    <div class="container controlyfuga">
+        <div class="row">
+            <div class="col-lg-6 col-md-8 order-2 order-md-2 order-lg-1 mx-auto">
+                <div class="position-relative">
+                    <div class="blur-shadow-image">
+                        <img src="assets/img/otros/Control-y-automatización.png" class="w-100 border-radius-xl" alt="carz">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12 ms-auto order-1 order-md-1 order-lg-1 d-flex justify-content-center align-items-center">
+                <div class="p-3 pt-0 text-center">
+                    <div class="ico-flex icon icon-shape icon-md bg-gradient-info shadow-info text-center mb-4 mx-auto">
+                        <img src="assets/img/otros/icogestion1.svg" alt="icono control y automatizacion">
+                    </div>
+                    <h4 class="mb-4">Control y Automatización para tu Restaurante</h4>
+                    <p>Optimiza la gestión de tu restaurante con Restofy, una plataforma integral que centraliza y automatiza todas las operaciones clave. Desde la toma de comandas hasta la gestión de inventarios, Restofy te brinda un control preciso para incrementar la eficiencia operativa. <br><br> Te permite tomar decisiones informadas y mejorar la rentabilidad de tu establecimiento.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3 mt-md-3 mt-lg-3 ">
+            <div class=" mt-4 col-lg-5 col-md-12 me-auto">
+                <div class="p-3 pt-0 text-center">
+                    <div class="ico-flex icon icon-shape icon-md bg-gradient-warning shadow-warning text-center mb-4 mx-auto">
+                        <img src="assets/img/otros/icofuga.svg" alt="icono fuga dinero">
+                    </div>
+                    <h4 class="mb-4">Disminuye fugas de dinero e inventario</h4>
+                    <p>Con nuestra plataforma integral, podrás implementar medidas efectivas para minimizar fugas de dinero e inventario mediante cierres y conteos ciegos (de caja y de inventario), optimizando así la rentabilidad de tu negocio. <br> <br> Nuestra plataforma proporciona herramientas detalladas para supervisar cada transacción y mantener un seguimiento exhaustivo de tu inventario. Restofy se convierte en tu aliado estratégico para reducir pérdidas y optimizar la gestión económica de tu negocio gastronómico.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-8 mx-auto d-flex justify-content-center align-items-center">
+                <div class="position-relative">
+                    <div class="blur-shadow-image">
+                        <img src="assets/img/otros/rentabilidadfuga.jpg" class="w-100 border-radius-xl mt-4" alt="sunset">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Todo el control de tu negocio en una aplicación -->
+<section class="mt-8">
+    <h2 class="mx-2 mx-lg-auto mx text-center mb-6 w-lg-50">Todo el control de tu negocio en una aplicación</h2>
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-md-4">
+                <div class="p-3">
+                    <div class="ico-flex icon icon-shape icon-md bg-gradient-blue shadow-warning text-center mb-4 mx-auto">
+                        <img src="assets/img/otros/iconube.svg" alt="icono todo en la nube">
+                    </div>
+                    <h5 class="mt-3">Todo está en la nube</h5>
+                    <p class="parrafo-corto">Lo que le permite una mayor flexibilidad y accesibilidad. Con un software totalmente en la nube, accede y trabaja desde cualquier lugar, en cualquier momento. También tienes la ventaja de la escalabilidad, ya que puedes adaptar fácilmente los recursos del sistema según las necesidades de tu negocio</p>
+                    <button class="btn btn-link colorenlace ver-mas">Ver más</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-3">
+                    <div class="ico-flex icon icon-shape icon-md bg-gradient-blue shadow-warning text-center mb-4 mx-auto">
+                        <img src="assets/img/otros/icodispositivo.svg" alt="icono desde cualquier dispositivo">
+                    </div>
+                    <h5 class="mt-3">Desde cualquier dispositivo</h5>
+                    <p class="parrafo-corto">Lo puedes usar desde un celular, tablet o computador, lo que le permite gestionar ventas y operaciones desde cualquier ubicación, ofreciendo eficiencia en la atención al cliente  </p>
+                    <button class="btn btn-link colorenlace ver-mas">Ver más</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-3">
+                    <div class="ico-flex icon icon-shape icon-md bg-gradient-blue shadow-warning text-center mb-4 mx-auto">
+                        <img src="assets/img/otros/icointerfaz.svg" alt="icono interfaz amigable">
+                    </div>
+                    <h5 class="mt-3">Intuitivo y fácil de utilizar</h5>
+                    <p class="parrafo-corto">Cuenta con una interfaz amigable, lo que representa una menor curva de aprendizaje para los empleados, y por consiguiente obtenemos menos probabilidad de errores, ofreciendo una experiencia más satisfactoria en las operaciones que estos realizan.</p>
+                    <button class="btn btn-link colorenlace ver-mas">Ver más</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mt-sm-4 mt-lg-5">
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-md-4">
+                <div class="p-3 text-center">
+                    <div class="ico-flex icon icon-shape icon-md bg-gradient-blue shadow-warning text-center mb-4 mx-auto">
+                        <img src="assets/img/otros/icoautogestionable.svg" alt="icono todo es auto gestionable">
+                    </div>
+                    <h5 class="mt-3">Todo es auto gestionable</h5>
+                    <p class="parrafo-corto">Tienes la libertad de realizar ajustes y personalizar facilmente sin depender de terceros, ahorrando tiempo y costos. Además permite adaptarse rápidamente a cambios en el negocio y mantener el control total sobre la configuración y la administración del sistema</p>
+                    <button class="btn btn-link colorenlace ver-mas">Ver más</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-3">
+                    <div class="ico-flex icon icon-shape icon-md bg-gradient-blue shadow-warning text-center mb-4 mx-auto">
+                        <img src="assets/img/otros/icotiemporeal.svg" alt="icono informacion en tiempo real">
+                    </div>
+                    <h5 class="mt-3">Información en tiempo real</h5>
+                    <p class="parrafo-corto">Teniendo un sistema totalmente online tendras acceso a la información al instante y así con ella poder tomar decisiones más rápidas y basadas en datos actualizados. ¿Te imaginas estar de viaje y poder monitorear lo que está pasando en tu negocio? Restofy te ofrece este beneficio</p>
+                    <button class="btn btn-link colorenlace ver-mas">Ver más</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-3">
+                    <div class="ico-flex icon icon-shape icon-md bg-gradient-blue shadow-warning text-center mb-4 mx-auto">
+                        <img src="assets/img/otros/icoalmacenamiento.svg" alt="icono sin limites de almacenamiento">
+                    </div>
+                    <h5 class="mt-3">Sin límite de almacenamiento</h5>
+                    <p class="parrafo-corto">No te debes procupar por el almacenamiento de tus equipos, siendo un software en la nube podras guardar todo el histórico de datos y podrás descargarlo en cualquier momento, como los reportes de ventas, gastos, inventario y toda la información que guardes en el sistema</p>
+                    <button class="btn btn-link colorenlace ver-mas">Ver más</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Franja: Todas las características como mesas -->
+<section class="my-5 py-5 bg-gradient-dark position-relative overflow-hidden">
+    <img src="assets/img/shapes/waves-white.svg" alt="pattern-lines" class="position-absolute start-0 top-0 w-100 opacity-1">
+    <div class="container position-relative z-index-2">
+        <div class="row">
+            <div class="col-lg-5 col-md-8 m-auto text-start">
+                <h5 class="text-white mb-lg-0 mb-5">
+                    Sin Limitaciones, Todo Incluido: Todas las características como mesas, usuarios, productos y facturas, están disponibles de forma ilimitada.
+                </h5>
+            </div>
+            <div class="col-lg-7 m-auto">
+                <div class="row">
+                    <div class="col-sm-4 col-6 ps-sm-0 ms-auto">
+                        <button type="button" class="btn bg-gradient-warning mb-0 ms-lg-3 ms-sm-2 mb-sm-0 mb-2 me-auto w-100 d-block">
+                            Hablar con un asesor
+                        </button>
+                    </div>
+                    <div class="col-sm-4 col-6 ps-sm-0 me-lg-0 me-auto">
+                        <button type="button" class="btn btn-white mb-0 ms-lg-3 ms-sm-2 mb-sm-0 mb-2 me-auto w-100 d-block">
+                           Pide tu Prueba gratis
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Funcionalidades Clave para Revolucionar la Gestión de tu Negocio -->
+<section class="py-5">
+    <div class="container">
+        <div class="row justify-content-center colorenlaceorenge">
+            <h2 class="mx-2 text-center mb-6 w-lg-50">Funcionalidades Clave para Revolucionar la Gestión de tu Negocio</h2>
+            <div class="col-md-6">
+                <div class="p-3 text-start border-radius-lg d-flex flex-column">
+                    <div class="ico-flex icon icon-shape icon-md bg-gradient-orenge shadow-warning text-center mb-4 mx-auto">
+                        <img src="assets/img/otros/icotiempo.svg" alt="icono interfaz amigable">
+                    </div>
+                    <h5 class="mt-3 text-center">Medición Precisa de Tiempos de Atención</h5>
+                    <p class="parrafo-corto text-center">Nuestra plataforma permite una medición detallada de los tiempos de atención. Cuando un pedido se registra y es entregado, los meseros lo confirman en el sistema, proporcionando datos esenciales para el análisis de los tiempos de servicio. Esta funcionalidad permite una evaluación precisa del rendimiento del personal y del flujo de trabajo del restaurante. Con Restofy, cada interacción se convierte en una oportunidad para mejorar la eficiencia y elevar la experiencia del cliente.</p>
+                    <button class="btn btn-link colorenlace ver-mas">Ver más</button>
+                </div>
+                <div class="p-3 text-start border-radius-lg mt-3 d-flex flex-column text-center">
+                    <div class="ico-flex icon icon-shape icon-md bg-gradient-orenge shadow-warning text-center mb-4 mx-auto">
+                        <img src="assets/img/otros/icoalerta.svg" alt="icono interfaz amigable">
+                    </div>
+                    <h5 class="mt-3">¡Alertas Instantáneas para Mesas Impacientes</h5>
+                    <p class="parrafo-corto">Restofy revoluciona la gestión del tiempo en restaurantes. Con nuestra función destacada, las mesas que esperan demasiado tiempo reciben alertas visuales instantáneas, garantizando una atención ágil. Nuestro sistema inicia un conteo desde que se realiza el pedido, y cuando el tiempo excede un límite, una señal roja llama la atención del personal. Esta innovación no solo mejora la comunicación interna, sino que también optimiza la experiencia del cliente al minimizar las demoras</p>
+                    <button class="btn btn-link colorenlace ver-mas">Ver más</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="p-3 text-start border-radius-lg d-flex flex-column text-center">
+                    <div class="ico-flex icon icon-shape icon-md bg-gradient-orenge shadow-warning text-center mb-4 mx-auto">
+                        <img src="assets/img/otros/icopriority.svg" alt="icono interfaz amigable">
+                    </div>
+                    <h5 class="mt-3">Priorización Inteligente de Pedidos</h5>
+                    <p class="parrafo-corto">Restofy ofrece una característica innovadora: la capacidad de establecer prioridades para productos y pedidos. Con esta función, los clientes pueden designar la importancia de cada producto, asegurando que los platos cruciales, como entradas o pedidos urgentes para niños, se preparen con rapidez. Los cocineros reciben notificaciones destacadas sobre estos elementos prioritarios, lo que garantiza una atención especializada y una experiencia culinaria excepcional para cada cliente. </p>
+                    <button class="btn btn-link colorenlace ver-mas">Ver más</button>
+                </div>
+                <div class="p-3 text-start border-radius-lg mt-3 d-flex flex-column text-center">
+                    <div class="ico-flex icon icon-shape icon-md bg-gradient-orenge shadow-warning text-center mb-4 mx-auto">
+                        <img src="assets/img/otros/icoconexion.svg" alt="icono interfaz amigable">
+                    </div>
+                    <h5 class="mt-3">Conexión Instantánea con Comandas Directas</h5>
+                    <p class="parrafo-corto">Simplificamos el proceso de pedidos con nuestra función de comandas directas desde la mesa a la cocina. Los meseros pueden tomar los pedidos en el momento en que se realizan, y al guardarlos, la comanda se envía automáticamente a la cocina. Esta integración instantánea reduce significativamente los tiempos de espera, permitiendo una entrega más rápida de los platos. Con esta innovación, la coordinación entre el personal de servicio y cocina es impecable, garantizando una experiencia gastronómica eficiente y satisfactoria para los clientes.</p>
+                    <button class="btn btn-link colorenlace ver-mas">Ver más</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ¡Alertas al Instante por WhatsApp! -->
+<section class="py-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-8 order-2 order-md-2 order-lg-1 mx-auto">
+                <div class="position-relative">
+                    <div class="blur-shadow-image">
+                        <img src="assets/img/dg2.jpg" class="w-100 border-radius-xl" alt="carz">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12 ms-auto order-1 order-md-1 order-lg-1 d-flex justify-content-center align-items-center">
+                <div class="p-3 pt-0 text-center">
+                    <div class="ico-flex icon icon-shape icon-md bg-gradient-info shadow-info text-center mb-4 mx-auto">
+                        <img src="assets/img/otros/icogestion1.svg" alt="icono control y automatizacion">
+                    </div>
+                    <h4 class="mb-4">¡Alertas al Instante por WhatsApp!</h4>
+                    <p>¿Quieres estar siempre un paso adelante? Somos el único sistema que ofrece integración directa con WhatsApp. <br> <br>Con RestoFy, recibe notificaciones instantáneas por WhatsApp para mantenerte informado sobre faltantes de productos, cambios en el inventario, eliminaciones, cierres de caja y mucho más. ¡Sé el primero en conocer las novedades de tu restaurante y toma decisiones rápidas y acertadas!</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3 mt-md-3 mt-lg-3">
+            <div class="mt-4 col-lg-5 col-md-12 me-auto">
+                <div class="p-3 pt-0 text-center">
+                    <div class="ico-flex icon icon-shape icon-md bg-gradient-warning shadow-warning text-center mb-4 mx-auto">
+                        <img src="assets/img/otros/icofuga.svg" alt="icono fuga dinero">
+                    </div>
+                    <h4 class="mb-4">Las Facturas Electrónicas y POS Electrónicas son ilimitadas</h4>
+                    <p>(incluye facturación electrónica y Nuevo documento POS electrónico, de forma ilimitada y sin cargos adicionales) Con RestoFy, disfruta de facturas electrónicas ilimitadas, eliminando la necesidad de comprar paquetes. <br> <br>Además, te brindamos asistencia en el proceso de habilitación ante la DIAN. Nuestro sistema se encarga de enviar automáticamente y de manera veloz las facturas electrónicas a tus clientes al momento que hacen una compra en tu restaurante.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-8 order-2 order-md-2 order-lg-1 mx-auto">
+                <div class="position-relative">
+                    <div class="blur-shadow-image">
+                        <img src="assets/img/dg1.jpg" class="w-100 border-radius-xl mt-4 position-absolute" alt="sunset">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Restofy, el sistema integral diseñado para mejorar cada aspecto de tu restaurante -->
+<section class="py-3">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-4 mx-auto">
+                <div class="position-relative">
+                    <img class="w-100 mt-5" src="assets/img/examples/iphone.png">
+                </div>
+            </div>
+            <div class="col-lg-6 mx-auto mt-5">
+                <h3 class="mb-4">Restofy, el sistema integral diseñado para mejorar cada aspecto de tu restaurante</h3>
+                <p class="lead mb-5">Desde una precisión del 35% en los cuadres de caja diarios hasta una sorprendente reducción del 68% en errores de pedidos, Restofy se ha convertido en la solución definitiva para optimizar la eficiencia, seguridad y calidad en la gestión de restaurantes.</p>
+                <div class="row">
+                    <div class="col-lg-6 col-6 mb-lg-3">
+                        <h2 class="text-gradient text-primary">35%</h2>
+                        <p>Mejora en los cuadres de caja diarios: Restofy ha demostrado optimizar la conciliación diaria al proporcionar un sistema preciso y automatizado, generando una mejora del 35%.</p>
+                    </div>
+                    <div class="col-lg-6 col-6 mb-lg-3">
+                        <h2 class="text-gradient text-primary">24%</h2>
+                        <p>Disminución en pérdidas y robos: Gracias a las avanzadas características de seguridad y control implementadas por Restofy en la gestión de inventarios y caja, se ha logrado una reducción del 24%.</p>
+                    </div>
+                    <div class="col-lg-6 col-6">
+                        <h2 class="text-gradient text-primary">68%</h2>
+                        <p>Reducción de errores en los pedidos: Restofy garantiza que cada cliente reciba exactamente lo que solicitó, logrando una impresionante reducción del 68% en errores de pedidos.</p>
+                    </div>
+                    <div class="col-lg-6 col-6">
+                        <h2 class="text-gradient text-primary">26%</h2>
+                        <p>Reducción en los tiempos de preparación: Restofy permite a los chefs optimizar la cocina, logrando una reducción del 26% en los tiempos de preparación y entregando platos deliciosos de manera más eficiente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="py-lg-5">
+    <div class="container">
+        <div class="row">
+            <div class="ms-auto me-auto text-center mb-3">
+                <h3 class="text-dark my-3">Tu Restaurante con Funcionalidades Avanzadas de Restofy</h3>
+                <p>Herramientas avanzadas diseñadas para hacer que la gestión de tu restaurante sea más fácil y efectiva.</p>
+            </div>
+        </div>
+        <div class="row mt-lg-5 mt-4">
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="card">
+                    <div class="ps-4 mt-n4">
+                        <div class="icon icon-lg icon-shape bg-gradient-primary shadow-primary shadow text-center border-radius-xl d-flex justify-content-center">
+                            <img src="assets/img/otros/icocambioitem.svg" alt="icocambioitem">
+                        </div>
+                    </div>
+                    <div class="card-body border-radius-lg position-relative overflow-hidden pb-4">
+                        <h5 class="mt-2">Cambio de items</h5>
+                        <p class="mb-3 parrafo-corto">Presentamos una función de cambio de items que simplifica el proceso de modificación de pedidos. Si un cliente desea cambiar un item por otro, el mesero puede registrar fácilmente este cambio en el sistema sin necesidad de eliminar o anular el pedido original. Esta característica agiliza el servicio al cliente al tiempo que mantiene un registro claro y preciso de los cambios realizados</p>
+                        <button class="btn btn-link colorenlacered p-0 ver-mas">Ver más</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="card mb-3">
+                    <div class="ps-4 mt-n4">
+                        <div class="icon icon-lg icon-shape bg-gradient-success shadow-success shadow text-center border-radius-xl d-flex justify-content-center">
+                            <img src="assets/img/otros/icomediopago.svg" alt="icomediopago">
+                        </div>
+                    </div>
+                    <div class="card-body border-radius-lg position-relative overflow-hidden pb-4">
+                        <h5 class="mt-2">Múltiples medios de pago</h5>
+                        <p class="mb-3 parrafo-corto">Restofy es una plataforma de gestión de pedidos que permite pagar con varios medios de pago. Desde tarjetas de crédito hasta efectivo en la entrega, brinda flexibilidad a los clientes. Además, facilita la contabilidad para los establecimientos al integrar un sistema de seguimiento de pagos.</p>
+                        <button class="btn btn-link colorenlaceverde p-0 ver-mas">Ver más</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="card mb-3">
+                    <div class="ps-4 mt-n4">
+                        <div class="icon icon-lg icon-shape bg-gradient-blue shadow-warning shadow text-center border-radius-xl d-flex justify-content-center">
+                            <img src="assets/img/otros/icodividircuenta.svg" alt="icodividircuenta">
+                        </div>
+                    </div>
+                    <div class="card-body border-radius-lg position-relative overflow-hidden pb-4">
+                        <h5 class="mt-2">Dividir cuenta</h5>
+                        <p class="mb-3 parrafo-corto">Restofy ofrece una función innovadora que permite dividir cuentas de manera fácil y precisa. Con esta característica, los usuarios pueden dividir un pedido entre varias personas y pagar solo por lo que consumieron individualmente.</p>
+                        <button class="btn btn-link colorenlaceblue p-0 ver-mas">Ver más</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="card mb-3">
+                    <div class="ps-4 mt-n4">
+                        <div class="icon icon-lg icon-shape bg-gradient-blue shadow-dark shadow text-center border-radius-xl d-flex justify-content-center">
+                            <img src="assets/img/otros/icobasecaja.svg" alt="icobasecaj">
+                        </div>
+                    </div>
+                    <div class="card-body border-radius-lg position-relative overflow-hidden pb-4">
+                        <h5 class="mt-2">Ingreso base de caja</h5>
+                        <p class="mb-3 parrafo-corto">ofrece la funcionalidad de ingresar una base de efectivo al abrir la caja, permitiendo a los usuarios registrar el monto inicial disponible en cualquier momento durante la jornada laboral.</p>
+                        <button class="btn btn-link colorenlaceblue p-0 ver-mas">Ver más</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="card mb-3">
+                    <div class="ps-4 mt-n4">
+                        <div class="icon icon-lg icon-shape bg-gradient-info shadow-info shadow text-center border-radius-xl d-flex justify-content-center">
+                            <img src="assets/img/otros/icocomisionproducto.svg" alt="icobasecaj">
+                        </div>
+                    </div>
+                    <div class="card-body border-radius-lg position-relative overflow-hidden pb-4">
+                        <h5 class="mt-2">Comisiones por producto</h5>
+                        <p class="mb-3 parrafo-corto">Restofy integra una función especializada que permite asignar comisiones individuales a cada producto vendido. Con esta capacidad, los dueños de negocios pueden establecer porcentajes de comisión para cada artículo, y el sistema calculará automáticamente las comisiones a pagar a los meseros según sus ventas. </p>
+                        <button class="btn btn-link colorenlacered p-0 ver-mas">Ver más</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="card mb-3">
+                    <div class="ps-4 mt-n4">
+                        <div class="icon icon-lg icon-shape bg-gradient-danger shadow-danger shadow text-center border-radius-xl d-flex justify-content-center">
+                            <img src="assets/img/otros/icomultiplesprecios.svg" alt="icomultiplesprecios">
+                        </div>
+                    </div>
+                    <div class="card-body border-radius-lg position-relative overflow-hidden pb-4">
+                        <h5 class="mt-2">Múltiples precios</h5>
+                        <p class="mb-3 parrafo-corto">Con la versátil función de Restofy, los productos pueden tener múltiples precios asociados. Esta característica permite que los establecimientos definan diferentes precios para distintos grupos, como clientes habituales, empleados o servicios de entrega rápida. Al tomar un pedido, el mesero puede seleccionar el precio correspondiente según el grupo al que pertenece el cliente.</p>
+                        <button class="btn btn-link colorenlace p-0 ver-mas">Ver más</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="card">
+                    <div class="ps-4 mt-n4">
+                        <div class="icon icon-lg icon-shape bg-gradient-success shadow-primary shadow text-center border-radius-xl d-flex justify-content-center">
+                            <img src="assets/img/otros/icoanexos.svg" alt="icoanexos">
+                        </div>
+                    </div>
+                    <div class="card-body border-radius-lg position-relative overflow-hidden pb-4">
+                        <h5 class="mt-2">Anexos por defecto</h5>
+                        <p class="mb-3 parrafo-corto">Presentando una función eficiente de anexos por defecto, que agiliza la toma de pedidos al permitir la configuración de anexos frecuentes para las atenciones. Esta característica permite establecer automáticamente los anexos más comunes asociados con ciertos productos, lo que simplifica el proceso de pedido para el personal.</p>
+                        <button class="btn btn-link colorenlaceverde p-0 ver-mas">Ver más</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="card mb-3">
+                    <div class="ps-4 mt-n4">
+                        <div class="icon icon-lg icon-shape bg-gradient-blue shadow-success shadow text-center border-radius-xl d-flex justify-content-center">
+                            <img src="assets/img/otros/icopreciopersonalizado.svg" alt="icopreciopersonalizado">
+                        </div>
+                    </div>
+                    <div class="card-body border-radius-lg position-relative overflow-hidden pb-4">
+                        <h5 class="mt-2">Precios personalizado</h5>
+                        <p class="mb-3 parrafo-corto">Introducimos una función de precios personalizados que permite una mayor flexibilidad en la gestión de precios. Si el precio de un producto es variable, los meseros o cajeros pueden asignar el precio al momento del pago. Esta característica brinda una solución adaptable a situaciones donde los precios pueden fluctuar.</p>
+                        <button class="btn btn-link colorenlaceblue p-0 ver-mas">Ver más</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5">
+                <div class="card mb-3">
+                    <div class="ps-4 mt-n4">
+                        <div class="icon icon-lg icon-shape bg-gradient-warning shadow-warning shadow text-center border-radius-xl d-flex justify-content-center">
+                            <img src="assets/img/otros/icopropina.svg" alt="icopropina">
+                        </div>
+                    </div>
+                    <div class="card-body border-radius-lg position-relative overflow-hidden pb-4">
+                        <h5 class="mt-2">Editar propina</h5>
+                        <p class="mb-3 parrafo-corto">Presentamos una función de edición de propina que facilita la personalización del servicio voluntario. En el sistema, se puede configurar inicialmente el porcentaje de propina, pero si se desea modificar al momento del pago, el proceso se agiliza con un paso muy sencillo. Esta característica ofrece flexibilidad tanto para los clientes como para el personal.</p>
+                            <button class="btn btn-link colorenlacered p-0 ver-mas">Ver más</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<div class="d-none">
+    
+    
+    
+    <!-- START Section Content W/ 2 images aside of icon title description -->
+    
+    <!-- END Section Content -->
+    
+    
+    
+    
+    
+    
+    <!-- -------- START Features w/ 4 cols w/ colored icon & title & text -------- -->
+    
+    <!-- -------- END Features w/ 4 cols w/ colored icon & title & text -------- -->
+    
+    
+    <!-- START Section Content W/ 2 images aside of icon title description -->
+    
+    <!-- END Section Content -->
+    
+    
+    
+    <!-- -------- END Features w/ title, device and stats -------- -->
+    
+    
+    
+    <section class="py-5 pt-0">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
+                    <div class="info">
+                        <i class="material-icons text-gradient text-warning text-5xl">grid_view</i>
+                        <h5 class="mt-3">Components</h5>
+                        <p>We get insulted by others, lose trust for those We get back.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
+                    <div class="info">
+                        <i class="material-icons text-gradient text-warning text-5xl">textsms</i>
+                        <h5 class="mt-3">Mix &amp; Match</h5>
+                        <p>We get insulted by others, lose trust for those We get back.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
+                    <div class="info">
+                        <i class="material-icons text-gradient text-warning text-5xl">palette</i>
+                        <h5 class="mt-2">Design</h5>
+                        <p>We get insulted by others, lose trust for those We get back.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
+                    <div class="info">
+                        <i class="material-icons text-gradient text-warning text-5xl">card_giftcard</i>
+                        <h5 class="mt-2">Payment</h5>
+                        <p>We get insulted by others, lose trust for those We get back.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="my-1 py-5 bg-gradient-dark position-relative overflow-hidden">
+        <img src="assets/img/shapes/pattern-lines.svg" alt="pattern-lines" class="position-absolute start-0 top-0 w-100 opacity-4">
+        <div class="container position-relative z-index-2">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 m-auto text-center">
+                    <h5 class="text-white">Be the first to see the news</h5>
+                    <p class="mb-4 text-white">
+                        Your company may not be in the software business,
+                        but eventually, a software company will be in your business.
+                    </p>
+                    <button type="button" class="btn bg-gradient-primary mb-0 ms-sm-3 me-auto">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="mt-8">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-4">
+                    <div class="p-3">
+                        <div class="icon icon-md icon-shape bg-gradient-info shadow-info text-center border-radius-xl mt-n4">
+                            <i class="material-icons opacity-10">description</i>
+                        </div>
+                        <h5 class="mt-3">Detailed Documentation</h5>
+                        <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that
+                            process will continue whatever.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3">
+                        <div class="icon icon-md icon-shape bg-gradient-info shadow-info text-center border-radius-xl mt-n4">
+                            <i class="material-icons opacity-10">support</i>
+                        </div>
+                        <h5 class="mt-3">Awesome Support</h5>
+                        <p>The time is now for it to be okay to be great. People in this world shun people for being great.
+                            I'm not
+                            trying, I'm not trying to do the best way.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3">
+                        <div class="icon icon-md icon-shape bg-gradient-info shadow-info text-center border-radius-xl mt-n4">
+                            <i class="material-icons opacity-10">grid_view</i>
+                        </div>
+                        <h5 class="mt-3">Styled Components</h5>
+                        <p>If you have the opportunity to play this game of life you need to appreciate every moment. A lot
+                            of people don’t appreciate the moment until it’s passed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="py-2">
+        <div class="container">
+            <div class="row justify-space-between py-2">
+                <div class="card card-plain card-blog mt-5">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card-image position-relative border-radius-lg cursor-pointer">
+                                <div class="blur-shadow-image">
+                                    <img class="img border-radius-lg" src="assets/img/examples/card-blog4.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-7 my-auto ms-md-3 mt-md-auto mt-4">
+                            <p class="text-xs text-uppercase font-weight-bold text-gradient text-info mb-2">Startups</p>
+                            <h3 class="text-dark cursor-pointer">Lyft launching cross-platform service this week</h3>
+                            <p>
+                                Like so many organizations these days, Autodesk is a company in transition. It was until
+                                recently a traditional boxed software company selling licenses. Yet its own business model
+                                disruption is only part of the story — and <a href="javascript:;" class="text-dark"> Read
+                                More </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="mt-8">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-4">
+                    <div class="p-3">
+                        <div class="icon icon-md icon-shape bg-gradient-info shadow-info text-center border-radius-xl mt-n4">
+                            <i class="material-icons opacity-10">description</i>
+                        </div>
+                        <h5 class="mt-3">Detailed Documentation</h5>
+                        <p>The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that
+                            process will continue whatever.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3">
+                        <div class="icon icon-md icon-shape bg-gradient-info shadow-info text-center border-radius-xl mt-n4">
+                            <i class="material-icons opacity-10">support</i>
+                        </div>
+                        <h5 class="mt-3">Awesome Support</h5>
+                        <p>The time is now for it to be okay to be great. People in this world shun people for being great.
+                            I'm not
+                            trying, I'm not trying to do the best way.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3">
+                        <div class="icon icon-md icon-shape bg-gradient-info shadow-info text-center border-radius-xl mt-n4">
+                            <i class="material-icons opacity-10">grid_view</i>
+                        </div>
+                        <h5 class="mt-3">Styled Components</h5>
+                        <p>If you have the opportunity to play this game of life you need to appreciate every moment. A lot
+                            of people don’t appreciate the moment until it’s passed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="ms-auto me-auto text-center">
+                    <h3 class="text-dark mb-0 mt-3">How To Handle The Components</h3>
+                    <p>We’re constantly trying to express ourselves and actualize our dreams. Don't stop.</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-sm-6 col-lg-4 mt-lg-0 mt-4">
+                    <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-google-cloud.svg">
+                    <h5>Payment vendor</h5>
+                    <p class="text-sm">Check out our proven methods, guides, and exercises that help make work better, and
+                        people happier.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 mt-lg-0 mt-4">
+                    <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-github.svg">
+                    <h5>Organize your team</h5>
+                    <p class="text-sm">Check out our proven methods, guides, and exercises that help make work better, and
+                        people happier.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 mt-lg-0 mt-4">
+                    <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-amazon.svg">
+                    <h5>E-commerce</h5>
+                    <p class="text-sm">Check out our proven methods, guides, and exercises that help make work better, and
+                        people happier.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 mt-lg-5 mt-4">
+                    <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-dribbble.svg">
+                    <h5>Digital Product Design</h5>
+                    <p class="text-sm">Check out our proven methods, guides, and exercises that help make work better, and
+                        people happier.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 mt-lg-5 mt-4">
+                    <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-zoom.svg">
+                    <h5>Better Communication</h5>
+                    <p class="text-sm">Check out our proven methods, guides, and exercises that help make work better, and
+                        people happier.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 mt-lg-5 mt-4">
+                    <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-twitter.svg">
+                    <h5>Logo design</h5>
+                    <p class="text-sm">Check out our proven methods, guides, and exercises that help make work better, and
+                        people happier.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 mt-lg-5 mt-4">
+                    <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-zoom.svg">
+                    <h5>Better Communication</h5>
+                    <p class="text-sm">Check out our proven methods, guides, and exercises that help make work better, and
+                        people happier.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 mt-lg-5 mt-4">
+                    <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-twitter.svg">
+                    <h5>Logo design</h5>
+                    <p class="text-sm">Check out our proven methods, guides, and exercises that help make work better, and
+                        people happier.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 mt-lg-5 mt-4">
+                    <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-dribbble.svg">
+                    <h5>Digital Product Design</h5>
+                    <p class="text-sm">Check out our proven methods, guides, and exercises that help make work better, and
+                        people happier.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+    
+                <div class="col-lg-5 col-md-12 me-auto">
+                    <div class="p-3 pt-0">
+                        <div class="icon icon-shape icon-md bg-gradient-warning shadow-warning text-center mb-4">
+                            <i class="material-icons opacity-10">spa</i>
+                        </div>
+                        <h4 class="mb-4">Stand up for every move</h4>
+                        <p>Society has put up so many boundaries, so many limitations on what’s right and wrong that it’s
+                            almost impossible to get a pure thought out.It’s like a little kid, a little boy, looking at
+                            colors. <br> <br> Before somebody tells you you shouldn’t like pink because that’s for girls, or
+                            you’d instantly become a gay two-year-old. Why would anyone pick blue over pink? Pink is
+                            obviously a better color.</p>
+                        <a href="javascript:;" class="text-dark icon-move-right">More about us
+                            <i class="fas fa-arrow-right text-sm ms-1"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-8">
+                    <div class="position-relative">
+                        <div class="blur-shadow-image">
+                            <img src="assets/img/dg1.jpg" class="w-100 border-radius-xl mt-4 position-absolute" alt="sunset">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-0 mt-md-5 mt-lg-8">
+                <div class="col-lg-6 col-md-8 order-2 order-md-2 order-lg-1">
+                    <div class="position-relative">
+                        <div class="blur-shadow-image">
+                            <img src="assets/img/dg2.jpg" class="w-100 border-radius-xl position-absolute" alt="carz">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 ms-auto order-1 order-md-1 order-lg-1">
+                    <div class="p-3 pt-0">
+                        <div class="icon icon-shape icon-md bg-gradient-info shadow-info text-center mb-4">
+                            <i class="material-icons opacity-10">celebration</i>
+                        </div>
+                        <h4 class="mb-4">Refreshing workspace atmosphere</h4>
+                        <p>We’re not always in the position that we want to be at. We’re constantly growing. We’re
+                            constantly making mistakes. We’re constantly trying to express ourselves and actualize our
+                            dreams. <br><br> If you have the opportunity to play this game of life you need to appreciate
+                            every moment. A lot of people don’t appreciate the moment until it’s passed.</p>
+                        <a href="javascript:;" class="text-dark icon-move-right">More about us
+                            <i class="fas fa-arrow-right text-sm ms-1"></i>
+                        </a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    
+    <section class="py-1">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="p-3 text-center">
+                        <div class="icon icon-shape icon-md bg-gradient-danger shadow-danger mx-auto">
+                            <i class="material-icons opacity-10">inbox</i>
+                        </div>
+                        <h5 class="mt-4">Field Groups</h5>
+                        <p>The document management piece enables HR to write.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="p-3 text-center">
+                        <div class="icon icon-shape icon-md bg-gradient-danger shadow-danger mx-auto">
+                            <i class="material-icons opacity-10">person_search</i>
+                        </div>
+                        <h5 class="mt-4">Record Selectors</h5>
+                        <p>In a classic all exhibitors will be able to pitch.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="p-3 text-center">
+                        <div class="icon icon-shape icon-md bg-gradient-danger shadow-danger mx-auto">
+                            <i class="material-icons opacity-10">stream</i>
+                        </div>
+                        <h5 class="mt-4">Expand Configuration</h5>
+                        <p>The $360 exhibitor pass includes a digital exhibition.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="p-3 text-center">
+                        <div class="icon icon-shape icon-md bg-gradient-danger shadow-danger mx-auto">
+                            <i class="material-icons opacity-10">vrpano</i>
+                        </div>
+                        <h5 class="mt-4">Virtual Info Areas</h5>
+                        <p>Speaking of a stellar, this one lets you navigate.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="py-5 pb-8">
+        <div class="container">
+            <div class="row">
+    
+                <div class="col-lg-5 col-md-12 me-auto">
+                    <div class="p-3 pt-0">
+                        <div class="icon icon-shape icon-md bg-gradient-warning shadow-warning text-center mb-4">
+                            <i class="material-icons opacity-10">spa</i>
+                        </div>
+                        <h4 class="mb-4">Stand up for every move</h4>
+                        <p>Society has put up so many boundaries, so many limitations on what’s right and wrong that it’s
+                            almost impossible to get a pure thought out.It’s like a little kid, a little boy, looking at
+                            colors. <br> <br> Before somebody tells you you shouldn’t like pink because that’s for girls, or
+                            you’d instantly become a gay two-year-old. Why would anyone pick blue over pink? Pink is
+                            obviously a better color.</p>
+                        <a href="javascript:;" class="text-dark icon-move-right">More about us
+                            <i class="fas fa-arrow-right text-sm ms-1"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-8">
+                    <div class="position-relative">
+                        <div class="blur-shadow-image">
+                            <img src="assets/img/dg1.jpg" class="w-100 border-radius-xl mt-4 position-absolute" alt="sunset">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-0 mt-md-5 mt-lg-8">
+                <div class="col-lg-6 col-md-8 order-2 order-md-2 order-lg-1">
+                    <div class="position-relative">
+                        <div class="blur-shadow-image">
+                            <img src="assets/img/dg2.jpg" class="w-100 border-radius-xl position-absolute" alt="carz">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 ms-auto order-1 order-md-1 order-lg-1">
+                    <div class="p-3 pt-0">
+                        <div class="icon icon-shape icon-md bg-gradient-info shadow-info text-center mb-4">
+                            <i class="material-icons opacity-10">celebration</i>
+                        </div>
+                        <h4 class="mb-4">Refreshing workspace atmosphere</h4>
+                        <p>We’re not always in the position that we want to be at. We’re constantly growing. We’re
+                            constantly making mistakes. We’re constantly trying to express ourselves and actualize our
+                            dreams. <br><br> If you have the opportunity to play this game of life you need to appreciate
+                            every moment. A lot of people don’t appreciate the moment until it’s passed.</p>
+                        <a href="javascript:;" class="text-dark icon-move-right">More about us
+                            <i class="fas fa-arrow-right text-sm ms-1"></i>
+                        </a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    
+    <section class="py-md-5 pb-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="info">
+                        <div class="icon icon-lg icon-shape bg-gradient-primary shadow-primary text-center border-radius-xl mt-n4">
+                            <i class="material-icons opacity-10">local_shipping</i>
+                        </div>
+                        <h5 class="mt-4">24h Delivery</h5>
+                        <p>Divide details about your product or agency work into parts. Write a few lines about each one. A
+                            paragraph describing a feature will be enough.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="info">
+                        <div class="icon icon-lg icon-shape bg-gradient-primary shadow-primary text-center border-radius-xl mt-n4">
+                            <i class="material-icons opacity-10">verified_user</i>
+                        </div>
+                        <h5 class="mt-4">Refundable Policy</h5>
+                        <p>It really matters and then like it really doesn’t matter. What matters is the people who are
+                            sparked by it. And the people who are like offended by it.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="info">
+                        <div class="icon icon-lg icon-shape bg-gradient-primary shadow-primary text-center border-radius-xl mt-n4">
+                            <i class="material-icons opacity-10">favorite</i>
+                        </div>
+                        <h5 class="mt-4">Popular Item</h5>
+                        <p>That’s what I’m here for. Don’t be afraid to be wrong because you can’t learn anything from a
+                            compliment. Why would anyone pick blue over pink? </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="my-5 py-5 bg-gradient-dark position-relative overflow-hidden">
+        <img src="assets/img/shapes/waves-white.svg" alt="pattern-lines" class="position-absolute start-0 top-0 w-100 opacity-1">
+        <div class="container position-relative z-index-2">
+            <div class="row">
+                <div class="col-lg-5 col-md-8 m-auto text-start">
+                    <h5 class="text-white mb-lg-0 mb-5">
+                        You only have to do a few things right in your life so long as you don’t do too many things wrong.
+                    </h5>
+                </div>
+                <div class="col-lg-6 m-auto">
+                    <div class="row">
+                        <div class="col-sm-4 col-6 ps-sm-0 ms-auto">
+                            <button type="button" class="btn bg-gradient-primary mb-0 ms-lg-3 ms-sm-2 mb-sm-0 mb-2 me-auto w-100 d-block">
+                                Apply Now
+                            </button>
+                        </div>
+                        <div class="col-sm-4 col-6 ps-sm-0 me-lg-0 me-auto">
+                            <button type="button" class="btn btn-white mb-0 ms-lg-3 ms-sm-2 mb-sm-0 mb-2 me-auto w-100 d-block">
+                                Our Story
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="py-5">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-lg-6 justify-content-center d-flex flex-column">
+                    <div class="card">
+                        <div class="d-block blur-shadow-image">
+                            <img src="https://images.unsplash.com/photo-1620103143245-9efb3e4a7553?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80" alt="img-blur-shadow-blog-2" class="img-fluid border-radius-xl" loading="lazy">
+                        </div>
+                        <div class="colored-shadow" style="background-image: url(https://images.unsplash.com/photo-1620103143245-9efb3e4a7553?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80&quot;);"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 justify-content-center d-flex flex-column pl-lg-5 pt-lg-0 pt-3">
+                    <h6 class="category text-warning mt-3">Productivity</h6>
+                    <h3 class="card-title">
+                        <a href="javascript:;" class="text-dark">Interesting factoids I bet you never knew about Creative
+                            Tim</a>
+                    </h3>
+                    <p class="card-description">
+                        Warner Music Group announced today it’s acquiring the selected assets of the music platform
+                        Songkick,
+                        including its app for finding concerts and the company’s trademark. Songkick has been involved in a
+                        lawsuit against the major… <a href="javascript:;" class="text-darker icon-move-right text-sm">Read
+                        More
+                        <i class="fas fa-arrow-right text-xs ms-1" aria-hidden="true"></i>
+                    </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="ms-auto me-auto text-center">
+                    <h3 class="text-dark mb-0 mt-3">How To Handle The Components</h3>
+                    <p>We’re constantly trying to express ourselves and actualize our dreams. Don't stop.</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-sm-6 col-lg-4 mt-lg-0 mt-4">
+                    <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-google-cloud.svg">
+                    <h5>Payment vendor</h5>
+                    <p class="text-sm">Check out our proven methods, guides, and exercises that help make work better, and
+                        people happier.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 mt-lg-0 mt-4">
+                    <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-github.svg">
+                    <h5>Organize your team</h5>
+                    <p class="text-sm">Check out our proven methods, guides, and exercises that help make work better, and
+                        people happier.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 mt-lg-0 mt-4">
+                    <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-amazon.svg">
+                    <h5>E-commerce</h5>
+                    <p class="text-sm">Check out our proven methods, guides, and exercises that help make work better, and
+                        people happier.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 mt-lg-5 mt-4">
+                    <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-dribbble.svg">
+                    <h5>Digital Product Design</h5>
+                    <p class="text-sm">Check out our proven methods, guides, and exercises that help make work better, and
+                        people happier.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 mt-lg-5 mt-4">
+                    <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-zoom.svg">
+                    <h5>Better Communication</h5>
+                    <p class="text-sm">Check out our proven methods, guides, and exercises that help make work better, and
+                        people happier.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 mt-lg-5 mt-4">
+                    <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-twitter.svg">
+                    <h5>Logo design</h5>
+                    <p class="text-sm">Check out our proven methods, guides, and exercises that help make work better, and
+                        people happier.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="py-sm-7 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <h3 class="mt-2">Read More About Us</h3>
+                    <p>Pain is what we go through as we become older. We get insulted by others, lose trust for those
+                        others. We get back stabbed by friends. It becomes harder for us to give others a hand.</p>
+                    <a href="javascript:;" class="text-primary text-sm icon-move-right">More about us
+                        <i class="fas fa-arrow-right text-xs ms-1" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="col-lg-6 mt-lg-0 mt-5 ps-lg-0 ps-0 ms-auto">
+                    <div class="p-3 info-horizontal d-flex align-items-center">
+                        <div class="icon icon-md icon-shape bg-gradient-primary shadow-primary text-center border-radius-xl">
+                            <i class="material-icons opacity-10">mediation</i>
+                        </div>
+                        <div class="description ps-3">
+                            <p class="mb-0">It becomes harder for us to give others a hand. <br> We get our heart broken by
+                                people we love.</p>
+                        </div>
+                    </div>
+                    <div class="p-3 info-horizontal d-flex align-items-center">
+                        <div class="icon icon-md icon-shape bg-gradient-primary shadow-primary text-center border-radius-xl">
+                            <i class="material-icons opacity-10">settings_overscan</i>
+                        </div>
+                        <div class="description ps-3">
+                            <p class="mb-0">As we live, our hearts turn colder. <br>Cause pain is what we go through as we
+                                become older.</p>
+                        </div>
+                    </div>
+                    <div class="p-3 info-horizontal d-flex align-items-center">
+                        <div class="icon icon-md icon-shape bg-gradient-primary shadow-primary text-center border-radius-xl">
+                            <i class="material-icons opacity-10">token</i>
+                        </div>
+                        <div class="description ps-3">
+                            <p class="mb-0">When we lose family over time. <br> What else could rust the heart more over
+                                time? Blackgold.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- START Section Content W/ 2 images aside of icon title description -->
+    <section class="py-1 pb-8">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 order-2 order-md-2 order-lg-1">
+                    <div class="position-relative">
+                        <div class="blur-shadow-image">
+                            <img src="assets/img/dg2.jpg" class="w-100 border-radius-xl position-absolute" alt="carz">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 ms-auto order-1 order-md-1 order-lg-1">
+                    <div class="p-3 pt-0">
+                        <div class="icon icon-shape icon-md bg-gradient-info shadow-info text-center mb-4">
+                            <i class="material-icons opacity-10">celebration</i>
+                        </div>
+                        <h4 class="mb-4">Refreshing workspace atmosphere</h4>
+                        <p>We’re not always in the position that we want to be at. We’re constantly growing. We’re
+                            constantly making mistakes. We’re constantly trying to express ourselves and actualize our
+                            dreams. <br><br> If you have the opportunity to play this game of life you need to appreciate
+                            every moment. A lot of people don’t appreciate the moment until it’s passed.</p>
+                        <a href="javascript:;" class="text-dark icon-move-right">More about us
+                            <i class="fas fa-arrow-right text-sm ms-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-0 mt-md-5 mt-lg-8">
+                <div class="col-lg-5 col-md-12 me-auto">
+                    <div class="p-3 pt-0">
+                        <div class="icon icon-shape icon-md bg-gradient-warning shadow-warning text-center mb-4">
+                            <i class="material-icons opacity-10">spa</i>
+                        </div>
+                        <h4 class="mb-4">Stand up for every move</h4>
+                        <p>Society has put up so many boundaries, so many limitations on what’s right and wrong that it’s
+                            almost impossible to get a pure thought out.It’s like a little kid, a little boy, looking at
+                            colors. <br> <br> Before somebody tells you you shouldn’t like pink because that’s for girls, or
+                            you’d instantly become a gay two-year-old. Why would anyone pick blue over pink? Pink is
+                            obviously a better color.</p>
+                        <a href="javascript:;" class="text-dark icon-move-right">More about us
+                            <i class="fas fa-arrow-right text-sm ms-1"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-8">
+                    <div class="position-relative">
+                        <div class="blur-shadow-image">
+                            <img src="assets/img/dg1.jpg" class="w-100 border-radius-xl mt-4 position-absolute" alt="sunset">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END Section Content -->
+    
+    
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto text-center pb-4">
+                    <h4 class="text-gradient text-info">Social Analytics</h4>
+                    <h2>Turn your idea into a startup</h2>
+                    <p class="lead">We’re constantly trying to express ourselves and actualize our dreams. If you have the
+                        opportunity to play </p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="p-3 text-center">
+                        <i class="material-icons text-gradient text-info text-5xl">groups</i>
+                        <h5 class="mt-2">Check our team</h5>
+                        <p class="mb-0">We get insulted by others, lose trust for those others. We get back here to follow
+                            my dreams</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="p-3 text-center">
+                        <i class="material-icons text-gradient text-info text-5xl">support_agent</i>
+                        <h5 class="mt-2">Support 24/7</h5>
+                        <p class="mb-0">We get insulted by others, lose trust for those others. We get back here to follow
+                            my dreams</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mx-md-auto">
+                    <div class="p-3 text-center">
+                        <i class="material-icons text-gradient text-info text-5xl">update</i>
+                        <h5 class="mt-2">Unlimited revisions</h5>
+                        <p class="mb-0">We get insulted by others, lose trust for those others. We get back here to follow
+                            my dreams</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="py-lg-5">
+        <div class="container">
+            <div class="row">
+                <div class="ms-auto me-auto text-center">
+                    <h3 class="text-dark mb-0 mt-3">How To Handle The Components</h3>
+                    <p>We’re constantly trying to express ourselves and actualize our dreams. Don't stop.</p>
+                </div>
+            </div>
+            <div class="row mt-lg-5 mt-4">
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="card">
+                        <div class="ps-4 mt-n4">
+                            <div class="icon icon-lg icon-shape bg-gradient-primary shadow-primary shadow text-center border-radius-xl">
+                                <i class="material-icons opacity-10">manage_accounts</i>
+                            </div>
+                        </div>
+                        <div class="card-body border-radius-lg position-relative overflow-hidden pb-4">
+                            <h5 class="mt-2">Slack bot</h5>
+                            <p class="mb-3">If everything I did failed - which it doesn't, it actually succeeds - just the
+                                fact that I'm willing to fail is an inspiration. People are so scared to lose that they
+                                don't even try. And this is sad.</p>
+                            <a href="javascript:;" class="font-weight-bold text-xs text-uppercase font-weight-bolder text-primary icon-move-right">
+                                Check more
+                                <i class="fas fa-arrow-right text-xs ms-1" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="card mb-3">
+                        <div class="ps-4 mt-n4">
+                            <div class="icon icon-lg icon-shape bg-gradient-success shadow-success shadow text-center border-radius-xl">
+                                <i class="material-icons opacity-10">face</i>
+                            </div>
+                        </div>
+                        <div class="card-body border-radius-lg position-relative overflow-hidden pb-4">
+                            <h5 class="mt-2">Looking great</h5>
+                            <p class="mb-3">You have the opportunity to play this game of life you need to appreciate every
+                                moment. A lot of people don’t appreciate the moment until it’s motivating the doers.</p>
+                            <a href="javascript:;" class="font-weight-bold text-xs text-uppercase font-weight-bolder text-success icon-move-right">
+                                See details
+                                <i class="fas fa-arrow-right text-xs ms-1" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="card mb-3">
+                        <div class="ps-4 mt-n4">
+                            <div class="icon icon-lg icon-shape bg-gradient-warning shadow-warning shadow text-center border-radius-xl">
+                                <i class="material-icons opacity-10">integration_instructions</i>
+                            </div>
+                        </div>
+                        <div class="card-body border-radius-lg position-relative overflow-hidden pb-4 px-sm-5 ">
+                            <h5 class="mt-2">Developer First</h5>
+                            <p class="mb-3">For standing out. But the time is now to be okay to be the greatest you. Would
+                                you believe in what you believe in, if you were the only one who believed it? What do you
+                                think?</p>
+                            <a href="javascript:;" class="font-weight-bold text-xs text-uppercase font-weight-bolder text-warning icon-move-right">
+                                View journey
+                                <i class="fas fa-arrow-right text-xs ms-1" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="card mb-3">
+                        <div class="ps-4 mt-n4">
+                            <div class="icon icon-lg icon-shape bg-gradient-dark shadow-dark shadow text-center border-radius-xl">
+                                <i class="material-icons opacity-10">public</i>
+                            </div>
+                        </div>
+                        <div class="card-body border-radius-lg position-relative overflow-hidden pb-4">
+                            <h5 class="mt-2">Prepare launch</h5>
+                            <p class="mb-3">Society has put up so many boundaries, so many limitations on what’s right and
+                                wrong that it’s almost impossible to get a pure thought out. It’s like a little kid, a
+                                little boy.</p>
+                            <a href="javascript:;" class="font-weight-bold text-xs text-uppercase font-weight-bolder text-dark icon-move-right">
+                                Check out more
+                                <i class="fas fa-arrow-right text-xs ms-1" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="card mb-3">
+                        <div class="ps-4 mt-n4">
+                            <div class="icon icon-lg icon-shape bg-gradient-info shadow-info shadow text-center border-radius-xl">
+                                <i class="material-icons opacity-10">support</i>
+                            </div>
+                        </div>
+                        <div class="card-body border-radius-lg position-relative overflow-hidden pb-4">
+                            <h5 class="mt-2">Premium support</h5>
+                            <p class="mb-3">Pink is obviously a better color. Everyone’s born confident, and everything’s
+                                taken away from you matters is the people who are sparked by it follow their dreams,
+                                too.</p>
+                            <a href="javascript:;" class="font-weight-bold text-xs text-uppercase font-weight-bolder text-info icon-move-right">
+                                See all
+                                <i class="fas fa-arrow-right text-xs ms-1" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5">
+                    <div class="card mb-3">
+                        <div class="ps-4 mt-n4">
+                            <div class="icon icon-lg icon-shape bg-gradient-danger shadow-danger shadow text-center border-radius-xl">
+                                <i class="material-icons opacity-10">brush</i>
+                            </div>
+                        </div>
+                        <div class="card-body border-radius-lg position-relative overflow-hidden pb-4">
+                            <h5 class="mt-2">Design tools</h5>
+                            <p class="mb-3">Constantly growing. We’re constantly making mistakes. We’re constantly trying to
+                                express ourselves, find the meaning and actualize our dreams the position that we want to
+                                be.</p>
+                            <a href="javascript:;" class="font-weight-bold text-xs text-uppercase font-weight-bolder text-danger icon-move-right">
+                                Find story
+                                <i class="fas fa-arrow-right text-xs ms-1" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="my-1 py-5 bg-gradient-dark position-relative overflow-hidden">
+        <img src="assets/img/shapes/pattern-lines.svg" alt="pattern-lines" class="position-absolute start-0 top-0 w-100 opacity-4">
+        <div class="container position-relative z-index-2">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 m-auto text-center">
+                    <h5 class="text-white">Be the first to see the news</h5>
+                    <p class="mb-4 text-white">
+                        Your company may not be in the software business,
+                        but eventually, a software company will be in your business.
+                    </p>
+                    <button type="button" class="btn bg-gradient-primary mb-0 ms-sm-3 me-auto">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="ms-auto me-auto text-center">
+                    <h3 class="text-dark mb-0 mt-3">How To Handle The Components</h3>
+                    <p>We’re constantly trying to express ourselves and actualize our dreams. Don't stop.</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4 ms-auto my-auto">
+                    <div class="cursor-pointer">
+                        <div class="card card-background">
+                            <div class="full-background" style="background-image: url('https://images.unsplash.com/photo-1507207611509-ec012433ff52?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=934&amp;q=80')"></div>
+                            <div class="card-body pt-7 text-center">
+                                <p class="text-white text-uppercase">Search and Discover!</p>
+                                <h3 class="text-white up mb-0">The Most Important New Technology</h3>
+                                <p class="text-white opacity-8">We’re constantly trying to express ourselves and actualize
+                                    our dreams. If you have the opportunity to play this game of life you need to appreciate
+                                    every moment.</p>
+                                <button type="button" class="btn btn-white btn-sm mt-3">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 me-auto my-auto ms-md-5">
+                    <div class="p-3 info-horizontal d-flex">
+                        <div>
+                            <h5>1. Listen to Social Conversations</h5>
+                            <p>
+                                Gain access to the demographics, psychographics, and location of unique people who are
+                                interested and talk about your brand.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p-3 info-horizontal d-flex">
+                        <div>
+                            <h5>2. Performance Analyze</h5>
+                            <p>
+                                Unify data from Facebook, Instagram, Twitter, LinkedIn, and Youtube to gain rich insights
+                                from easy-to-use reports.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p-3 info-horizontal d-flex">
+                        <div>
+                            <h5>3. Social Conversions</h5>
+                            <p>
+                                Track actions taken on your website that originated from social, and understand the impact
+                                on your bottom line.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <div class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-8 mx-auto text-center">
+                    <h3 class="font-weight-bolder"> More than 500 brands trust Material</h3>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-2 col-md-4 col-6 mb-4">
+                    <img class="w-100 opacity-9" src="assets/img/logos/medium-logos/logo-coinbase.svg" alt="logo">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 mb-4">
+                    <img class="w-100 opacity-9" src="assets/img/logos/medium-logos/logo-nasa.svg" alt="logo">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 mb-4">
+                    <img class="w-100 opacity-9" src="assets/img/logos/medium-logos/logo-netflix.svg" alt="logo">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 mb-4">
+                    <img class="w-100 opacity-9" src="assets/img/logos/medium-logos/logo-pinterest.svg" alt="logo">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 mb-4">
+                    <img class="w-100 opacity-9" src="assets/img/logos/medium-logos/logo-spotify.svg" alt="logo">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 mb-4">
+                    <img class="w-100 opacity-9" src="assets/img/logos/medium-logos/logo-vodafone.svg" alt="logo">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- -------- START PRE-FOOTER 5 w/ DARK BACKGROUND ------- -->
+    <section class="my-1 py-5 bg-gradient-dark position-relative overflow-hidden">
+        <img src="assets/img/shapes/pattern-lines.svg" alt="pattern-lines" class="position-absolute start-0 top-0 w-100 opacity-4">
+        <div class="container position-relative z-index-2">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 m-auto text-center">
+                    <h5 class="text-white">Be the first to see the news</h5>
+                    <p class="mb-4 text-white">
+                        Your company may not be in the software business,
+                        but eventually, a software company will be in your business.
+                    </p>
+                    <button type="button" class="btn bg-gradient-primary mb-0 ms-sm-3 me-auto">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------- END PRE-FOOTER 5 w/ DARK BACKGROUND ------- -->
+    
+    <!-- -------- START HEADER 8 w/ two background colors ------- -->
+    <header class="header-rounded-images">
+        <div class="page-header min-vh-90">
+            <img class="position-absolute fixed-top ms-auto w-50 h-100 z-index-0 d-none d-sm-none d-md-block border-radius-section border-top-end-radius-0 border-top-start-radius-0 border-bottom-end-radius-0" src="https://images.unsplash.com/photo-1538681105587-85640961bf8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="image" loading="lazy">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 d-flex">
+                        <div class="card card-body blur text-md-start text-center px-sm-5 shadow-lg mt-sm-5 py-sm-5">
+                            <h2 class="text-dark mb-4">Choose the best</h2>
+    
+                            <p class="lead text-dark pe-md-5 me-md-5">
+                                Find the story of Creative Tim&#39;s most complex design system and
+                                all the work that make this design available.
+                            </p>
+                            <div class="buttons">
+                                <button type="button" class="btn bg-gradient-primary mt-4">Contact Us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- -------- END HEADER 9 w/ two background colors ------- -->
+    
+    <!-- START Testimonials w/ 3 cards w/ stars -->
+    <section class="py-5 position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="mb-3">Our Customers</h2>
+                    <h5 class="font-weight-light">
+                        You need more informations?
+                        Read our customers reviews.
+                    </h5>
+                </div>
+            </div>
+            <div class="row mt-lg-6 mt-4">
+                <div class="col-lg-3 col-md-6 mb-lg-0 mb-4 ms-auto">
+                    <div class="card">
+                        <div class="position-relative mt-n4 mx-auto z-index-2">
+                            <div class="blur-shadow-avatar">
+                                <img class="avatar border-radius-lg avatar-lg" src="assets/img/team-4.jpg">
+                            </div>
+                        </div>
+                        <h6 class="mb-0 mt-3 text-center">Lucian Eurel</h6>
+                        <p class="text-xs mb-0 text-center">CEO Creative Tim</p>
+                        <div class="card-body text-center py-0">
+                            <p class="mt-4">
+                                "Web Summit will increase your appetite, your inspiration, your skills, your motivation and
+                                your network."
+                            </p>
+                        </div>
+                        <div class="card-footer text-center pt-3 position-relative z-index-1">
+                            <div class="text-center">
+                                <div class="rating float-none">
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="far fa-star text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
+                    <div class="card">
+                        <div class="position-relative mt-n4 mx-auto z-index-2">
+                            <div class="blur-shadow-avatar">
+                                <img class="avatar border-radius-lg avatar-lg" src="assets/img/team-2.jpg">
+                            </div>
+                        </div>
+                        <h6 class="mb-0 mt-3 text-center">Linde Michel</h6>
+                        <p class="text-xs mb-0 text-center">CFO Slack</p>
+                        <div class="card-body text-center py-0">
+                            <p class="mt-4">
+                                "Do not go where the path may lead, go instead where there is no path and leave a trail. You
+                                will succeed on it. "
+                            </p>
+                        </div>
+                        <div class="card-footer text-center pt-3 position-relative z-index-1">
+                            <div class="text-center">
+                                <div class="rating float-none">
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="far fa-star text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-lg-0 mb-4 me-auto">
+                    <div class="card">
+                        <div class="position-relative mt-n4 mx-auto z-index-2">
+                            <div class="blur-shadow-avatar">
+                                <img class="avatar border-radius-lg avatar-lg" src="assets/img/team-3.jpg">
+                            </div>
+                        </div>
+                        <h6 class="mb-0 mt-3 text-center">Misha Stam</h6>
+                        <p class="text-xs mb-0 text-center">COO Dribbble</p>
+                        <div class="card-body text-center py-0">
+                            <p class="mt-4">
+                                "The pessimist complains about the wind; the optimist expects it to change; the realist
+                                adjusts the sails."
+                            </p>
+                        </div>
+                        <div class="card-footer text-center pt-3 position-relative z-index-1">
+                            <div class="text-center">
+                                <div class="rating float-none">
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3 mb-lg-0 mb-4 me-auto">
+                    <div class="card">
+                        <div class="position-relative mt-n4 mx-auto z-index-2">
+                            <div class="blur-shadow-avatar">
+                                <img class="avatar border-radius-lg avatar-lg" src="assets/img/team-3.jpg">
+                            </div>
+                        </div>
+                        <h6 class="mb-0 mt-3 text-center">Misha Stam</h6>
+                        <p class="text-xs mb-0 text-center">COO Dribbble</p>
+                        <div class="card-body text-center py-0">
+                            <p class="mt-4">
+                                "The pessimist complains about the wind; the optimist expects it to change; the realist
+                                adjusts the sails."
+                            </p>
+                        </div>
+                        <div class="card-footer text-center pt-3 position-relative z-index-1">
+                            <div class="text-center">
+                                <div class="rating float-none">
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                    <i class="fas fa-star text-warning"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    <!-- END Testimonials w/ 3 cards w/ stars -->
+    
+    <section class="py-5 mt-5">
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-md-6 mx-auto text-center">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>A lot of people don’t appreciate the moment until it’s passed. I'm not trying my hardest, and I'm not
+                        trying to do </p>
+                </div>
+            </div>
+    
+            <div class="accordion row" id="accordionRental">
+                <div class="col-md-6 mx-auto">
+                    <div class="accordion-item mb-3">
+                        <h5 class="accordion-header" id="headingOne">
+                            <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                How do I order?
+                                <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
+                                <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
+                            </button>
+                        </h5>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionRental">
+                            <div class="accordion-body text-sm opacity-8">
+                                We’re not always in the position that we want to be at. We’re constantly growing. We’re
+                                constantly making mistakes. We’re constantly trying to express ourselves and actualize
+                                our dreams. If you have the opportunity to play this game
+                                of life you need to appreciate every moment. A lot of people don’t appreciate the moment
+                                until it’s passed.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                        <h5 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How can i make the payment?
+                                <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
+                                <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
+                            </button>
+                        </h5>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionRental">
+                            <div class="accordion-body text-sm opacity-8">
+                                It really matters and then like it really doesn’t matter. What matters is the people who
+                                are sparked by it. And the people who are like offended by it, it doesn’t matter.
+                                Because it's about motivating the doers. Because I’m here to follow my dreams and
+                                inspire other people to follow their dreams, too.
+                                <br>
+                                We’re not always in the position that we want to be at. We’re constantly growing. We’re
+                                constantly making mistakes. We’re constantly trying to express ourselves and actualize
+                                our dreams. If you have the opportunity to play this game of life you need to appreciate
+                                every moment. A lot of people don’t appreciate the moment until it’s passed.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mx-auto">
+                    <div class="accordion-item mb-3">
+                        <h5 class="accordion-header" id="headingFifth">
+                            <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifth" aria-expanded="false" aria-controls="collapseFifth">
+                                Where do I find the shipping details?
+                                <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
+                                <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
+                            </button>
+                        </h5>
+                        <div id="collapseFifth" class="accordion-collapse collapse" aria-labelledby="headingFifth" data-bs-parent="#accordionRental">
+                            <div class="accordion-body text-sm opacity-8">
+                                There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s
+                                my skill. I’m not really specifically talented at anything except for the ability to
+                                learn. That’s what I do. That’s what I’m here for. Don’t be afraid to be wrong because
+                                you can’t learn anything from a compliment.
+                                I always felt like I could do anything. That’s the main thing people are controlled by!
+                                Thoughts- their perception of themselves! They're slowed down by their perception of
+                                themselves. If you're taught you can’t do anything, you won’t do anything. I was taught
+                                I could do everything.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                        <h5 class="accordion-header" id="headingSixth">
+                            <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixth" aria-expanded="false" aria-controls="collapseSixth">
+                                Where do I find the shipping details?
+                                <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
+                                <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
+                            </button>
+                        </h5>
+                        <div id="collapseSixth" class="accordion-collapse collapse" aria-labelledby="headingSixth" data-bs-parent="#accordionRental">
+                            <div class="accordion-body text-sm opacity-8">
+                                There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s
+                                my skill. I’m not really specifically talented at anything except for the ability to
+                                learn. That’s what I do. That’s what I’m here for. Don’t be afraid to be wrong because
+                                you can’t learn anything from a compliment.
+                                I always felt like I could do anything. That’s the main thing people are controlled by!
+                                Thoughts- their perception of themselves! They're slowed down by their perception of
+                                themselves. If you're taught you can’t do anything, you won’t do anything. I was taught
+                                I could do everything.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                        <h5 class="accordion-header" id="headingSeventh">
+                            <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeventh" aria-expanded="false" aria-controls="collapseSeventh">
+                                Where do I find the shipping details?
+                                <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
+                                <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
+                            </button>
+                        </h5>
+                        <div id="collapseSeventh" class="accordion-collapse collapse" aria-labelledby="headingSeventh" data-bs-parent="#accordionRental">
+                            <div class="accordion-body text-sm opacity-8">
+                                There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s
+                                my skill. I’m not really specifically talented at anything except for the ability to
+                                learn. That’s what I do. That’s what I’m here for. Don’t be afraid to be wrong because
+                                you can’t learn anything from a compliment.
+                                I always felt like I could do anything. That’s the main thing people are controlled by!
+                                Thoughts- their perception of themselves! They're slowed down by their perception of
+                                themselves. If you're taught you can’t do anything, you won’t do anything. I was taught
+                                I could do everything.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mb-3">
+                        <h5 class="accordion-header" id="headingEigth">
+                            <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEigth" aria-expanded="false" aria-controls="collapseEigth">
+                                Where do I find the shipping details?
+                                <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
+                                <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
+                            </button>
+                        </h5>
+                        <div id="collapseEigth" class="accordion-collapse collapse" aria-labelledby="headingEigth" data-bs-parent="#accordionRental">
+                            <div class="accordion-body text-sm opacity-8">
+                                There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s
+                                my skill. I’m not really specifically talented at anything except for the ability to
+                                learn. That’s what I do. That’s what I’m here for. Don’t be afraid to be wrong because
+                                you can’t learn anything from a compliment.
+                                I always felt like I could do anything. That’s the main thing people are controlled by!
+                                Thoughts- their perception of themselves! They're slowed down by their perception of
+                                themselves. If you're taught you can’t do anything, you won’t do anything. I was taught
+                                I could do everything.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------- START FOOTER 7 w/ DARK BACKGROUND AND 3 COLUMNS ------- -->
+    <footer class="footer pt-5 bg-gradient-dark position-relative overflow-hidden">
+        <img src="assets/img/shapes/waves-white.svg" alt="pattern-lines" class="position-absolute start-0 top-0 w-100 opacity-04">
+        <div class="container position-relative">
+            <div class="row">
+                <div class="col-lg-4 me-auto my-auto text-lg-start text-center">
+                    <h6 class="text-white font-weight-bolder text-uppercase mb-2">Restofy</h6>
+                    <p class="text-white">
+                        Soluciones Empresariales de Alta Calidad <br>
+                        Software Calificado
+                    </p>
+                    <div class="row justify-space-between">
+                        <div class="col-12 mx-auto">
+                            <button type="button" class="btn btn-icon-only btn-facebook">
+                                <span class="btn-inner--icon mr-1"><i class="fab fa-facebook"></i></span>
+                            </button>
+                            <button type="button" class="btn btn-icon-only btn-instagram">
+                                <span class="btn-inner--icon mr-1"><i class="fab fa-instagram"></i></span>
+                            </button>
+                            <button type="button" class="btn btn-icon-only btn-youtube">
+                                <span class="btn-inner--icon"><i class="fab fa-youtube"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-4 ms-md-auto text-lg-start text-center mb-sm-0 mb-4">
+                    <div>
+                        <h6 class="text-white text-sm mb-1">Company</h6>
+                        <ul class="flex-column ms-lg-n3 nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-white opacity-8 text-sm" href="javascript:;" target="_blank">
+                                    About Us
+                                </a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link text-white opacity-8 text-sm" href="javascript:;" target="_blank">
+                                    Careers
+                                </a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link text-white opacity-8 text-sm" href="javascript:;" target="_blank">
+                                    Press
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="col-lg-2 col-sm-4 col-4 text-lg-start text-center mb-sm-0 mb-4">
+                    <div>
+                        <h6 class="text-white text-sm mb-1">Pages</h6>
+                        <ul class="flex-column ms-lg-n3 nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-white opacity-8 text-sm" href="javascript:;" target="_blank">
+                                    Login
+                                </a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link text-white opacity-8 text-sm" href="javascript:;" target="_blank">
+                                    Register
+                                </a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link text-white opacity-8 text-sm" href="javascript:;" target="_blank">
+                                    About
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="col-lg-2 col-sm-4 col-4 text-lg-start text-center mb-sm-0 mb-4">
+                    <div>
+                        <h6 class="text-white text-sm mb-1">Products</h6>
+                        <ul class="flex-column ms-lg-n3 nav">
+                            <li class="nav-item">
+                                <a class="nav-link text-white opacity-8 text-sm" href="javascript:;" target="_blank">
+                                    Free
+                                </a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link text-white opacity-8 text-sm" href="javascript:;" target="_blank">
+                                    PRO
+                                </a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link text-white opacity-8 text-sm" href="javascript:;" target="_blank">
+                                    Latest
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-lg-6 mt-2">
+                <div class="col-lg-4 me-auto mb-lg-0 mb-4 text-lg-start text-center">
+                    <p class="text-sm text-white opacity-8 mb-0">
+                        Copyright ©
+                        <script>document.write(new Date().getFullYear())</script>
+                        Todos los derechos reservados, Términos y privacidad.
+                    </p>
+                </div>
+                <div class="col-lg-6 ms-auto text-lg-end text-center">
+                    <p class="mb-3 text-lg text-white font-weight-bold">
+                        La verdadera libertad en los negocios se encuentra en la sabiduría de automatizar y mejorar continuamente - Restofy
+                    </p>
+                    <a href="javascript:;" target="_blank" class="text-white me-xl-4 me-4 opacity-8">
+                        <span class="fab fa-dribbble" aria-hidden="true"></span>
+                    </a>
+                    <a href="javascript:;" target="_blank" class="text-white me-xl-4 me-4 opacity-8">
+                        <span class="fab fa-twitter" aria-hidden="true"></span>
+                    </a>
+                    <a href="javascript:;" target="_blank" class="text-white me-xl-4 me-4 opacity-8">
+                        <span class="fab fa-pinterest" aria-hidden="true"></span>
+                    </a>
+                    <a href="javascript:;" target="_blank" class="text-white opacity-8">
+                        <span class="fab fa-github" aria-hidden="true"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- -------- END FOOTER 7 w/ DARK BACKGROUND AND 3 COLUMNS ------- -->
+</div>
+
+
+
+<!--   Core JS Files   -->
+    <script src="assets/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
+    <script src="assets/js/plugins/typedjs.js"></script>
+    <script src="assets/js/plugins/parallax.min.js"></script>
+    <script src="assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+    <script src="assets/js/plugins/anime.min.js" type="text/javascript"></script>
+    <script src="assets/js/custom.js" type="text/javascript"></script>
+    <script src="assets/js/utilidad.js" type="text/javascript"></script>
+</body>
+</html>

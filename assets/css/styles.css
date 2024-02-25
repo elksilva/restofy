@@ -1,0 +1,94 @@
+.logonav {
+    width: auto !important;
+    height: 2rem;
+    left: auto !important;
+    top: auto !important;
+    position: static !important; 
+}
+
+/* @media (min-width:  404px) { 
+    .navbarmod {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+@media (min-width:  404px) { 
+    .boton-amburguesa {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        text-align: right;
+    }
+} */
+
+.boton-amburguesa {
+    margin-left: auto !important;
+    margin-right: 0.5rem !important;
+    @media (min-width:  404px) { 
+        margin-left: 0 !important;
+    }
+}
+
+.ico-flex {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img {
+    width: 1.35rem;
+}
+
+
+@media (min-width: 768px) { 
+    .controlyfuga {
+        display: flex !important;
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .blur-shadow-image .position-absolute {
+        position: unset !important;
+    }
+}
+
+@media (max-width: 992px) { 
+    .style-linea {
+        border-bottom: .2px solid rgb(247, 247, 247);
+    }
+}
+
+/* Colapso de parrafos */
+
+.parrafo-corto {
+    overflow: hidden; /* Oculta el contenido que excede el tamaño del párrafo */
+    line-height: 1.5em; /* Altura de línea para determinar el colapso */
+    height: 4.5em; /* Altura máxima antes de colapsar */
+  }
+
+  .parrafo-corto.show-more {
+    height: auto; /* Muestra todo el contenido cuando la clase show-more está presente */
+  }
+
+  .colorenlace {
+    color: #2196f3 !important;
+  }
+
+  .colorenlaceorenge button {
+    color: #ffa500 !important; 
+  }
+ 
+  .colorenlacered {
+    color: #FF193E !important;
+  }
+  .colorenlaceverde {
+    color: #29d884 !important;
+  }
+  .colorenlaceblue {
+    color: #2196f3 !important;
+  }
+  .colorenlaceblack {
+    color: #030b27 !important;
+  }
+  .colorenlacenaranja {
+    color: #ffa500 !important;
+  }

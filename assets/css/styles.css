@@ -77,3 +77,16 @@
   .colorenlacenaranja {
     color: #ffa500 !important;
   }
+
+  .imgdatosestadisticosmovil {
+    @media (min-width:  768px) { 
+      display: none;
+    }
+  }
+
+  .datosestadisticosdesktop {
+    display: none;
+    @media (max-width:  768px) { 
+      display: block;
+    }
+  }

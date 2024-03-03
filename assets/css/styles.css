@@ -45,14 +45,18 @@
 
 /* Colapso de parrafos */
 
+.wrapper {
+  display: flex;
+}
 .parrafo-corto {
     overflow: hidden; /* Oculta el contenido que excede el tamaño del párrafo */
     line-height: 1.5em; /* Altura de línea para determinar el colapso */
-    height: 4.5em; /* Altura máxima antes de colapsar */
+    max-height: 4.5em; /* Altura máxima antes de colapsar */
+    transition: max-height 0.6s ease-out;
   }
 
-  .parrafo-corto.show-more {
-    height: auto; /* Muestra todo el contenido cuando la clase show-more está presente */
+  .show-more {
+    max-height: 100%; /* Muestra todo el contenido cuando la clase show-more está presente */
   }
 
   .colorenlace {

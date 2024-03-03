@@ -12,6 +12,19 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
 
+    <!-- Iconos Fontgoogle -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <style>
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24
+        }
+    </style>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -54,16 +67,16 @@
                     </a>
                 </li>
                 <li class="nav-item mx-2">
-                    <a href="https://ayuda.pilotto.app/" class="style-linea nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" role="button">
+                    <a href="ayuda.pilotto.app" class="style-linea nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" role="button">
                         Ayuda
                     </a>
                 </li>
 
-                <!-- <li class="nav-item mx-2">
+                <li class="nav-item mx-2">
                     <a class="style-linea nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" role="button">
                         Faq
                     </a>
-                </li> -->
+                </li>
             </ul>
 
             <ul class="navbar-nav d-lg-block d-none">
@@ -271,12 +284,12 @@
             </div>
             <div class="col-lg-7 m-auto p-0">
                 <div class="row">
-                    <div class="col-sm-4 col-6 ps-sm-0 ms-auto">
+                    <div class="col-sm-4 col-6 ps-sm-0 ms-auto w-100 w-sm-auto">
                         <button type="button" class="btn bg-gradient-rojo mb-0 ms-lg-3 ms-sm-2 mb-sm-0 mb-2 me-auto w-100 d-block">
                             Hablar con un asesor
                         </button>
                     </div>
-                    <div class="col-sm-4 col-6 ps-sm-0 me-lg-0 me-auto">
+                    <div class="col-sm-4 col-6 ps-sm-0 me-lg-0 me-auto w-100 w-sm-auto">
                         <button type="button" class="btn btn-white mb-0 ms-lg-3 ms-sm-2 mb-sm-0 mb-2 me-auto w-100 d-block">
                            Pide tu Prueba gratis
                         </button>
@@ -363,17 +376,20 @@
                         <img src="assets/img/otros/icofuga.svg" alt="icono fuga dinero">
                     </div>
                     <h4 class="mb-4">Las Facturas Electrónicas y POS Electrónicas son ilimitadas</h4>
-                    <p>(incluye facturación electrónica y Nuevo documento POS electrónico, de forma ilimitada y sin cargos adicionales) Con RestoFy, disfruta de facturas electrónicas ilimitadas, eliminando la necesidad de comprar paquetes. <br> <br>Además, te brindamos asistencia en el proceso de habilitación ante la DIAN. Nuestro sistema se encarga de enviar automáticamente y de manera veloz las facturas electrónicas a tus clientes al momento que hacen una compra en tu restaurante.
-                    </p>
+                    <p class="parrafo-corto">(incluye facturación electrónica y Nuevo documento POS electrónico, de forma ilimitada y sin cargos adicionales) Con RestoFy,
+                        disfruta de facturas electrónicas ilimitadas, eliminando la necesidad de comprar paquetes. <br> <br>Además, te brindamos asistencia en el proceso
+                        de habilitación ante la DIAN. Nuestro sistema se encarga de enviar automáticamente y de manera veloz las facturas electrónicas a tus clientes
+                        al momento que hacen una compra en tu restaurante.</p>
+                    <button class="btn btn-link colorenlaceblack p-0 ver-mas">Ver más</button>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-8 order-2 order-md-2 order-lg-1 mx-auto">
+            <!--<div class="col-lg-6 col-md-8 order-2 order-md-2 order-lg-1 mx-auto">
                 <div class="position-relative">
                     <div class="blur-shadow-image">
-                        <img src="assets/img/otros/imgprincipal/bg8.jpg" class="w-100 border-radius-xl mt-4 position-absolute" alt="Imagen Facturas Electrónicas y POS">
+                        <img src="assets/img/otros/imgprincipal/bg8.jpg" class="w-100 border-radius-xl mt-4 position-absolute" alt="sunset">
                     </div>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
 </section>
@@ -384,7 +400,7 @@
 <section class="py-3">
     <div class="container">
         <div class="row align-items-center justify-content-center">
-            <div class="col-lg-4 mx-auto">
+            <div class="col-lg-6 col-xl-5 mx-auto">
                 <div class="position-relative">
                     <img class="w-100 mt-5" src="assets/img/otros/imgprincipal/datosestadisticosmovil.png">
                 </div>
@@ -427,128 +443,128 @@
         </div>
         <div class="row mt-lg-5 mt-4">
             <div class="col-lg-4 col-md-6 mb-5">
-                <div class="card d-flex flex-column text-center">
-                    <div class="ps-4 mt-n4">
-                        <div class="icon icon-lg icon-shape bg-gradient-rojo shadow-rojo shadow text-center border-radius-xl d-flex justify-content-center mx-auto">
+                <div class="card">
+                    <div class="ps-sm-4 mt-n4 mx-auto mx-sm-0">
+                        <div class="icon icon-lg icon-shape bg-gradient-rojo shadow-rojo shadow text-center border-radius-xl d-flex justify-content-center">
                             <img src="assets/img/otros/icocambioitem.svg" alt="icocambioitem">
                         </div>
                     </div>
                     <div class="card-body border-radius-lg position-relative overflow-hidden pb-4">
-                        <h5 class="mt-2">Cambio de items</h5>
-                        <p class="mb-3 parrafo-corto">Presentamos una función de cambio de items que simplifica el proceso de modificación de pedidos. Si un cliente desea cambiar un item por otro, el mesero puede registrar fácilmente este cambio en el sistema sin necesidad de eliminar o anular el pedido original. Esta característica agiliza el servicio al cliente al tiempo que mantiene un registro claro y preciso de los cambios realizados</p>
-                        <button class="btn btn-link colorenlacered p-0 ver-mas">Ver más</button>
+                        <h5 class="mt-2 text-center text-sm-start text-center text-sm-start">Cambio de items</h5>
+                        <p class="mb-3 text-center text-sm-start parrafo-corto">Presentamos una función de cambio de items que simplifica el proceso de modificación de pedidos. Si un cliente desea cambiar un item por otro, el mesero puede registrar fácilmente este cambio en el sistema sin necesidad de eliminar o anular el pedido original. Esta característica agiliza el servicio al cliente al tiempo que mantiene un registro claro y preciso de los cambios realizados</p>
+                        <div class="text-center text-sm-start"><button class="btn btn-link colorenlacered p-0 ver-mas">Ver más</button></div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-5">
-                <div class="card mb-3 d-flex flex-column text-center">
-                    <div class="ps-4 mt-n4">
-                        <div class="icon icon-lg icon-shape bg-gradient-verde shadow-verde shadow text-center border-radius-xl d-flex justify-content-center mx-auto">
+                <div class="card mb-3">
+                    <div class="ps-sm-4 mt-n4 mx-auto mx-sm-0">
+                        <div class="icon icon-lg icon-shape bg-gradient-verde shadow-verde shadow text-center border-radius-xl d-flex justify-content-center">
                             <img src="assets/img/otros/icomediopago.svg" alt="icomediopago">
                         </div>
                     </div>
                     <div class="card-body border-radius-lg position-relative overflow-hidden pb-4">
-                        <h5 class="mt-2">Múltiples medios de pago</h5>
-                        <p class="mb-3 parrafo-corto">Restofy es una plataforma de gestión de pedidos que permite pagar con varios medios de pago. Desde tarjetas de crédito hasta efectivo en la entrega, brinda flexibilidad a los clientes. Además, facilita la contabilidad para los establecimientos al integrar un sistema de seguimiento de pagos.</p>
-                        <button class="btn btn-link colorenlaceverde p-0 ver-mas">Ver más</button>
+                        <h5 class="mt-2 text-center text-sm-start">Múltiples medios de pago</h5>
+                        <p class="mb-3 text-center text-sm-start parrafo-corto">Restofy es una plataforma de gestión de pedidos que permite pagar con varios medios de pago. Desde tarjetas de crédito hasta efectivo en la entrega, brinda flexibilidad a los clientes. Además, facilita la contabilidad para los establecimientos al integrar un sistema de seguimiento de pagos.</p>
+                        <div class="text-center text-sm-start"><button class="btn btn-link colorenlaceverde p-0 ver-mas">Ver más</button></div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-5">
-                <div class="card mb-3 d-flex flex-column text-center">
-                    <div class="ps-4 mt-n4">
-                        <div class="icon icon-lg icon-shape bg-gradient-blue shadow-warning shadow text-center border-radius-xl d-flex justify-content-center mx-auto">
+                <div class="card mb-3">
+                    <div class="ps-sm-4 mt-n4 mx-auto mx-sm-0">
+                        <div class="icon icon-lg icon-shape bg-gradient-blue shadow-warning shadow text-center border-radius-xl d-flex justify-content-center">
                             <img src="assets/img/otros/icodividircuenta.svg" alt="icodividircuenta">
                         </div>
                     </div>
                     <div class="card-body border-radius-lg position-relative overflow-hidden pb-4">
-                        <h5 class="mt-2">Dividir cuenta</h5>
-                        <p class="mb-3 parrafo-corto">Restofy ofrece una función innovadora que permite dividir cuentas de manera fácil y precisa. Con esta característica, los usuarios pueden dividir un pedido entre varias personas y pagar solo por lo que consumieron individualmente.</p>
-                        <button class="btn btn-link colorenlaceblue p-0 ver-mas">Ver más</button>
+                        <h5 class="mt-2 text-center text-sm-start">Dividir cuenta</h5>
+                        <p class="mb-3 text-center text-sm-start parrafo-corto">Restofy ofrece una función innovadora que permite dividir cuentas de manera fácil y precisa. Con esta característica, los usuarios pueden dividir un pedido entre varias personas y pagar solo por lo que consumieron individualmente.</p>
+                        <div class="text-center text-sm-start"><button class="btn btn-link colorenlaceblue p-0 ver-mas">Ver más</button></div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-5">
-                <div class="card mb-3 d-flex flex-column text-center">
-                    <div class="ps-4 mt-n4">
-                        <div class="icon icon-lg icon-shape bg-gradient-blue shadow-dark shadow text-center border-radius-xl d-flex justify-content-center mx-auto">
+                <div class="card mb-3">
+                    <div class="ps-sm-4 mt-n4 mx-auto mx-sm-0">
+                        <div class="icon icon-lg icon-shape bg-gradient-blue shadow-dark shadow text-center border-radius-xl d-flex justify-content-center">
                             <img src="assets/img/otros/icobasecaja.svg" alt="icobasecaj">
                         </div>
                     </div>
                     <div class="card-body border-radius-lg position-relative overflow-hidden pb-4">
-                        <h5 class="mt-2">Ingreso base de caja</h5>
-                        <p class="mb-3 parrafo-corto">ofrece la funcionalidad de ingresar una base de efectivo al abrir la caja, permitiendo a los usuarios registrar el monto inicial disponible en cualquier momento durante la jornada laboral.</p>
-                        <button class="btn btn-link colorenlaceblue p-0 ver-mas">Ver más</button>
+                        <h5 class="mt-2 text-center text-sm-start">Ingreso base de caja</h5>
+                        <p class="mb-3 text-center text-sm-start parrafo-corto">ofrece la funcionalidad de ingresar una base de efectivo al abrir la caja, permitiendo a los usuarios registrar el monto inicial disponible en cualquier momento durante la jornada laboral.</p>
+                        <div class="text-center text-sm-start"><button class="btn btn-link colorenlaceblue p-0 ver-mas">Ver más</button></div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-5">
-                <div class="card mb-3 d-flex flex-column text-center">
-                    <div class="ps-4 mt-n4">
-                        <div class="icon icon-lg icon-shape bg-gradient-rojo shadow-rojo shadow text-center border-radius-xl d-flex justify-content-center mx-auto">
+                <div class="card mb-3">
+                    <div class="ps-sm-4 mt-n4 mx-auto mx-sm-0">
+                        <div class="icon icon-lg icon-shape bg-gradient-rojo shadow-rojo shadow text-center border-radius-xl d-flex justify-content-center">
                             <img src="assets/img/otros/icocomisionproducto.svg" alt="icobasecaj">
                         </div>
                     </div>
                     <div class="card-body border-radius-lg position-relative overflow-hidden pb-4">
-                        <h5 class="mt-2">Comisiones por producto</h5>
-                        <p class="mb-3 parrafo-corto">Restofy integra una función especializada que permite asignar comisiones individuales a cada producto vendido. Con esta capacidad, los dueños de negocios pueden establecer porcentajes de comisión para cada artículo, y el sistema calculará automáticamente las comisiones a pagar a los meseros según sus ventas. </p>
-                        <button class="btn btn-link colorenlacered p-0 ver-mas">Ver más</button>
+                        <h5 class="mt-2 text-center text-sm-start">Comisiones por producto</h5>
+                        <p class="mb-3 text-center text-sm-start parrafo-corto">Restofy integra una función especializada que permite asignar comisiones individuales a cada producto vendido. Con esta capacidad, los dueños de negocios pueden establecer porcentajes de comisión para cada artículo, y el sistema calculará automáticamente las comisiones a pagar a los meseros según sus ventas. </p>
+                        <div class="text-center text-sm-start"><button class="btn btn-link colorenlacered p-0 ver-mas">Ver más</button></div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-5">
-                <div class="card mb-3 d-flex flex-column text-center">
-                    <div class="ps-4 mt-n4">
-                        <div class="icon icon-lg icon-shape bg-gradient-verde shadow-verde shadow text-center border-radius-xl d-flex justify-content-center mx-auto">
+                <div class="card mb-3">
+                    <div class="ps-sm-4 mt-n4 mx-auto mx-sm-0">
+                        <div class="icon icon-lg icon-shape bg-gradient-verde shadow-verde shadow text-center border-radius-xl d-flex justify-content-center">
                             <img src="assets/img/otros/icomultiplesprecios.svg" alt="icomultiplesprecios">
                         </div>
                     </div>
                     <div class="card-body border-radius-lg position-relative overflow-hidden pb-4">
-                        <h5 class="mt-2">Múltiples precios</h5>
-                        <p class="mb-3 parrafo-corto">Con la versátil función de Restofy, los productos pueden tener múltiples precios asociados. Esta característica permite que los establecimientos definan diferentes precios para distintos grupos, como clientes habituales, empleados o servicios de entrega rápida. Al tomar un pedido, el mesero puede seleccionar el precio correspondiente según el grupo al que pertenece el cliente.</p>
-                        <button class="btn btn-link colorenlaceverde p-0 ver-mas">Ver más</button>
+                        <h5 class="mt-2 text-center text-sm-start">Múltiples precios</h5>
+                        <p class="mb-3 text-center text-sm-start parrafo-corto">Con la versátil función de Restofy, los productos pueden tener múltiples precios asociados. Esta característica permite que los establecimientos definan diferentes precios para distintos grupos, como clientes habituales, empleados o servicios de entrega rápida. Al tomar un pedido, el mesero puede seleccionar el precio correspondiente según el grupo al que pertenece el cliente.</p>
+                        <div class="text-center text-sm-start"><button class="btn btn-link colorenlaceverde p-0 ver-mas">Ver más</button></div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-5">
-                <div class="card d-flex flex-column text-center">
-                    <div class="ps-4 mt-n4">
-                        <div class="icon icon-lg icon-shape bg-gradient-verde shadow-verde shadow text-center border-radius-xl d-flex justify-content-center mx-auto">
+                <div class="card">
+                    <div class="ps-sm-4 mt-n4 mx-auto mx-sm-0">
+                        <div class="icon icon-lg icon-shape bg-gradient-verde shadow-verde shadow text-center border-radius-xl d-flex justify-content-center">
                             <img src="assets/img/otros/icoanexos.svg" alt="icoanexos">
                         </div>
                     </div>
                     <div class="card-body border-radius-lg position-relative overflow-hidden pb-4">
-                        <h5 class="mt-2">Anexos por defecto</h5>
-                        <p class="mb-3 parrafo-corto">Presentando una función eficiente de anexos por defecto, que agiliza la toma de pedidos al permitir la configuración de anexos frecuentes para las atenciones. Esta característica permite establecer automáticamente los anexos más comunes asociados con ciertos productos, lo que simplifica el proceso de pedido para el personal.</p>
-                        <button class="btn btn-link colorenlaceverde p-0 ver-mas">Ver más</button>
+                        <h5 class="mt-2 text-center text-sm-start">Anexos por defecto</h5>
+                        <p class="mb-3 text-center text-sm-start parrafo-corto">Presentando una función eficiente de anexos por defecto, que agiliza la toma de pedidos al permitir la configuración de anexos frecuentes para las atenciones. Esta característica permite establecer automáticamente los anexos más comunes asociados con ciertos productos, lo que simplifica el proceso de pedido para el personal.</p>
+                        <div class="text-center text-sm-start"><button class="btn btn-link colorenlaceverde p-0 ver-mas">Ver más</button></div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-5">
-                <div class="card mb-3 d-flex flex-column text-center">
-                    <div class="ps-4 mt-n4">
-                        <div class="icon icon-lg icon-shape bg-gradient-blue shadow-blue shadow text-center border-radius-xl d-flex justify-content-center mx-auto">
+                <div class="card mb-3">
+                    <div class="ps-sm-4 mt-n4 mx-auto mx-sm-0">
+                        <div class="icon icon-lg icon-shape bg-gradient-blue shadow-blue shadow text-center border-radius-xl d-flex justify-content-center">
                             <img src="assets/img/otros/icopreciopersonalizado.svg" alt="icopreciopersonalizado">
                         </div>
                     </div>
                     <div class="card-body border-radius-lg position-relative overflow-hidden pb-4">
-                        <h5 class="mt-2">Precios personalizado</h5>
-                        <p class="mb-3 parrafo-corto">Introducimos una función de precios personalizados que permite una mayor flexibilidad en la gestión de precios. Si el precio de un producto es variable, los meseros o cajeros pueden asignar el precio al momento del pago. Esta característica brinda una solución adaptable a situaciones donde los precios pueden fluctuar.</p>
-                        <button class="btn btn-link colorenlaceblue p-0 ver-mas">Ver más</button>
+                        <h5 class="mt-2 text-center text-sm-start">Precios personalizado</h5>
+                        <p class="mb-3 text-center text-sm-start parrafo-corto">Introducimos una función de precios personalizados que permite una mayor flexibilidad en la gestión de precios. Si el precio de un producto es variable, los meseros o cajeros pueden asignar el precio al momento del pago. Esta característica brinda una solución adaptable a situaciones donde los precios pueden fluctuar.</p>
+                        <div class="text-center text-sm-start"><button class="btn btn-link colorenlaceblue p-0 ver-mas">Ver más</button></div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-5">
-                <div class="card mb-3 d-flex flex-column text-center">
-                    <div class="ps-4 mt-n4">
-                        <div class="icon icon-lg icon-shape bg-gradient-rojo shadow-rojo shadow text-center border-radius-xl d-flex justify-content-center mx-auto">
+                <div class="card mb-3">
+                    <div class="ps-sm-4 mt-n4 mx-auto mx-sm-0">
+                        <div class="icon icon-lg icon-shape bg-gradient-rojo shadow-rojo shadow text-center border-radius-xl d-flex justify-content-center">
                             <img src="assets/img/otros/icopropina.svg" alt="icopropina">
                         </div>
                     </div>
                     <div class="card-body border-radius-lg position-relative overflow-hidden pb-4">
-                        <h5 class="mt-2">Editar propina</h5>
-                        <p class="mb-3 parrafo-corto">Presentamos una función de edición de propina que facilita la personalización del servicio voluntario. En el sistema, se puede configurar inicialmente el porcentaje de propina, pero si se desea modificar al momento del pago, el proceso se agiliza con un paso muy sencillo. Esta característica ofrece flexibilidad tanto para los clientes como para el personal.</p>
-                            <button class="btn btn-link colorenlacered p-0 ver-mas">Ver más</button>
+                        <h5 class="mt-2 text-center text-sm-start">Editar propina</h5>
+                        <p class="mb-3 text-center text-sm-start parrafo-corto">Presentamos una función de edición de propina que facilita la personalización del servicio voluntario. En el sistema, se puede configurar inicialmente el porcentaje de propina, pero si se desea modificar al momento del pago, el proceso se agiliza con un paso muy sencillo. Esta característica ofrece flexibilidad tanto para los clientes como para el personal.</p>
+                            <div class="text-center text-sm-start"><button class="btn btn-link colorenlacered p-0 ver-mas">Ver más</button></div>
                     </div>
                 </div>
             </div>
@@ -562,28 +578,28 @@
         <div class="row text-center">
             <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
                 <div class="info">
-                    <i class="material-icons text-gradient text-warning text-5xl">grid_view</i>
+                    <i class="material-icons colorenlaceverde text-6xl">notes</i>
                     <h5 class="mt-3">Personaliza las Facturas a tu medida</h5>
                     <p>Adapta secuencias y rangos de facturación según tus necesidades, brindando flexibilidad total en la generación de comprobantes para tu negocio.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
                 <div class="info">
-                    <i class="material-icons text-gradient text-warning text-5xl">textsms</i>
+                    <i class="material-icons colorenlaceverde text-6xl">point_of_sale</i>
                     <h5 class="mt-3">Un Punto de Venta, Varios Negocios</h5>
                     <p>Desde una misma caja, administra múltiples negocios de manera simultánea, simplificando la gestión y optimizando recursos.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
                 <div class="info">
-                    <i class="material-icons text-gradient text-warning text-5xl">palette</i>
+                    <i class="material-icons colorenlaceverde text-6xl">fact_check</i>
                     <h5 class="mt-2">Orden y Claridad en tus cuentas con socios</h5>
                     <p>Separa tus productos en distintos grupos, manteniendo una organización en caso de que tengas varios socios que promuevan productos distintos.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
                 <div class="info">
-                    <i class="material-icons text-gradient text-warning text-5xl">card_giftcard</i>
+                    <i class="material-icons colorenlaceverde text-6xl">sync_lock</i>
                     <h5 class="mt-2">Cierre Diario ZETA sin Complicaciones</h5>
                     <p>Realiza un cierre diario sin complicaciones con el Zeta Diario, facilitando tus procesos y garantizando el cumplimiento de las normas tributarias vigentes.</p>
                 </div>
@@ -661,10 +677,11 @@
                     <div class="col-md-5 my-auto ms-md-3 mt-md-auto mt-4 order-md-2">
                         <p class="text-xs text-uppercase font-weight-bold text-gradient text-info mb-2">RECETAS</p>
                         <h3 class="">Control Preciso de Inventarios con RECETAS Personalizadas</h3>
-                        <p>Nuestra función de recetas simplifica la gestión de inventario al organizar los ingredientes de cada producto.
+                        <p class="parrafo-corto">Nuestra función de recetas simplifica la gestión de inventario al organizar los ingredientes de cada producto.
                             Cada venta descuenta automáticamente los ingredientes utilizados, proporcionando un seguimiento en tiempo real de los recursos disponibles. 
                             Además, las recetas permiten un costeo preciso, garantizando que siempre tengas una visión clara de los gastos asociados a cada producto.
                         </p>
+                        <button class="btn btn-link colorenlaceverde ver-mas">Ver más</button>
                     </div>
                 </div>
             </div>
@@ -673,106 +690,120 @@
 </section>
 
 
-<section class="mt-8">
+<section class="mt-3">
     <div class="container">
         <div class="row justify-content-center text-center">
             <div class="col-md-4">
                 <div class="p-3">
-                    <div class="icon icon-md icon-shape bg-gradient-info shadow-info text-center border-radius-xl mt-n4 mx-auto">
-                        <i class="material-icons opacity-10">description</i>
+                    <div class="icon icon-md icon-shape bg-gradient-orenge shadow-orenge text-center border-radius-xl mt-4 mx-auto">
+                        <i class="material-icons opacity-10">playlist_add</i>
                     </div>
                     <h5 class="mt-3">Adicionales que Suman Valor</h5>
-                    <p>Descripción: Añade valor a cada pedido con opciones de adicionales. Desde ingredientes extra hasta complementos especiales,
+                    <p class="parrafo-corto">Descripción: Añade valor a cada pedido con opciones de adicionales. Desde ingredientes extra hasta complementos especiales,
                          todo cuenta para descontar del inventario.</p>
+                        <button class="btn btn-link colorenlacenaranja ver-mas">Ver más</button>         
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="p-3">
-                    <div class="icon icon-md icon-shape bg-gradient-info shadow-info text-center border-radius-xl mt-n4 mx-auto">
-                        <i class="material-icons opacity-10">support</i>
+                    <div class="icon icon-md icon-shape bg-gradient-orenge shadow-orenge text-center border-radius-xl mt-n4 mx-auto">
+                        <i class="material-icons opacity-10">published_with_changes</i>
                     </div>
                     <h5 class="mt-3">Variaciones Preestablecidas</h5>
-                    <p>Cuando el mesero elige un producto, tiene la flexibilidad de seleccionar entre diversas variantes disponibles,
+                    <p class="parrafo-corto">Cuando el mesero elige un producto, tiene la flexibilidad de seleccionar entre diversas variantes disponibles,
                         lo que permite adaptar la elección según las preferencias específicas de cada cliente.</p>
+                    <button class="btn btn-link colorenlacenaranja ver-mas">Ver más</button>
+                        
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="p-3">
-                    <div class="icon icon-md icon-shape bg-gradient-info shadow-info text-center border-radius-xl mt-n4 mx-auto">
-                        <i class="material-icons opacity-10">grid_view</i>
+                    <div class="icon icon-md icon-shape bg-gradient-orenge shadow-orenge text-center border-radius-xl mt-n4 mx-auto">
+                        <i class="material-icons opacity-10">drag_indicator</i>
                     </div>
                     <h5 class="mt-3">Conversiones entre unidades</h5>
-                    <p>Convierte sin esfuerzo entre unidades de medida, ejemplo gramos a paquetes o mililitros a frascos,
+                    <p class="parrafo-corto">Convierte sin esfuerzo entre unidades de medida, ejemplo gramos a paquetes o mililitros a frascos,
                         simplificando tus conteos y revisiones, asegurando una gestión eficiente que se traduce en un funcionamiento fluido y sin complicaciones.</p>
+                    <button class="btn btn-link colorenlacenaranja ver-mas">Ver más</button>
+                        
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="py-5">
+<section class=" py-sm-2 py-lg-5">
     <div class="container">
         <div class="row">
             <div class="ms-auto me-auto text-center">
                 <h3 class="text-dark mb-0 mt-3">Funcionalidades Destacadas	para tener un Control Preciso</h3>
-                <p>Experimenta el poder de una solución completa para la gestión empresarial.
+                <p class="mt-3">Experimenta el poder de una solución completa para la gestión empresarial.
                     Desde descuentos personalizados hasta reportes estadísticos detallados, 
                     Restofy abarca clave como finanzas, relaciones con clientes y análisis estratégico.</p>
             </div>
         </div>
-        <div class="row mt-5">
-            <div class="col-sm-6 col-lg-4 mt-lg-0 mt-4">
-                <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-google-cloud.svg">
+        <div class="row mt-sm-2 mt-lg-5">
+            <div class="col-md-6 col-lg-4 mt-lg-0 mt-4  text-center text-md-start">
+                <i class="material-icons colorenlaceverde text-5xl">percent</i>
                 <h5>DESCUENTOS</h5>
-                <p class="text-sm">Agrega descuentos personalizados a los pedidos, ya sea en valor fijo o porcentaje.
+                <p class="text-sm parrafo-corto">Agrega descuentos personalizados a los pedidos, ya sea en valor fijo o porcentaje.
                     Permite flexibilidad en la aplicación de descuentos según las necesidades del negocio.</p>
+                    <button class="btn btn-link colorenlaceverde p-0 ver-mas">Ver más</button>
             </div>
-            <div class="col-sm-6 col-lg-4 mt-lg-0 mt-4">
-                <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-github.svg">
+            <div class="col-md-6 col-lg-4 mt-lg-0 mt-4  text-center text-md-start">
+                <i class="material-icons colorenlaceblue text-5xl">real_estate_agent</i>
                 <h5>CORTESÍAS</h5>
-                <p class="text-sm">Añade cortesías o atenciones gratuitas y genera análisis y reportes detallados para entender cómo impactan las cortesías en el negocio. 
+                <p class="text-sm parrafo-corto">Añade cortesías o atenciones gratuitas y genera análisis y reportes detallados para entender cómo impactan las cortesías en el negocio. 
                     Obtén información valiosa sobre el movimiento generado por estas acciones.</p>
+                    <button class="btn btn-link colorenlaceblue p-0 ver-mas">Ver más</button>
             </div>
-            <div class="col-sm-6 col-lg-4 mt-lg-0 mt-4">
-                <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-amazon.svg">
+            <div class="col-md-6 col-lg-4 mt-lg-0 mt-4  text-center text-md-start">
+                <i class="material-icons colorenlacenaranja text-5xl">trending_up</i>
                 <h5>MOVIMIENTOS GASTOS</h5>
-                <p class="text-sm">Registra y organiza gastos personalizados por categorías. Controla si los gastos se descuentan del dinero en caja para facilitar el cuadre,
+                <p class="text-sm parrafo-corto">Registra y organiza gastos personalizados por categorías. Controla si los gastos se descuentan del dinero en caja para facilitar el cuadre,
                     o si provienen de otras fuentes o cuentas bancarias. Mantén un seguimiento claro de los gastos.</p>
+                    <button class="btn btn-link colorenlacenaranja p-0 ver-mas">Ver más</button>
             </div>
-            <div class="col-sm-6 col-lg-4 mt-lg-5 mt-4">
-                <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-dribbble.svg">
+            <div class="col-md-6 col-lg-4 mt-lg-5 mt-4  text-center text-md-start">
+                <i class="material-icons colorenlacered text-5xl">account_balance</i>
                 <h5>MANEJO DE BOLSILLOS O CUENTAS EN BANCOS</h5>
-                <p class="text-sm">Crea y gestiona bolsillos o cuentas bancarias desde el sistema. Realiza transferencias del cierre de caja a bancos para un control eficiente.
+                <p class="text-sm parrafo-corto">Crea y gestiona bolsillos o cuentas bancarias desde el sistema. Realiza transferencias del cierre de caja a bancos para un control eficiente.
                     Descuenta gastos o compras directamente de estos bolsillos, manteniendo un seguimiento virtual de los fondos disponibles.</p>
+                    <button class="btn btn-link colorenlacered p-0 ver-mas">Ver más</button>
             </div>
-            <div class="col-sm-6 col-lg-4 mt-lg-5 mt-4">
-                <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-zoom.svg">
+            <div class="col-md-6 col-lg-4 mt-lg-5 mt-4  text-center text-md-start">
+                <i class="material-icons colorenlaceblack text-5xl">price_check</i>
                 <h5>CRÉDITOS Y ABONOS</h5>
-                <p class="text-sm">Descripción: Gestiona créditos para clientes y permite la adición de abonos. 
+                <p class="text-sm parrafo-corto">Descripción: Gestiona créditos para clientes y permite la adición de abonos. 
                     Facilita el control de transacciones a crédito y proporciona flexibilidad a los clientes para realizar pagos parciales.</p>
+                    <button class="btn btn-link colorenlaceblack p-0 ver-mas">Ver más</button>
             </div>
-            <div class="col-sm-6 col-lg-4 mt-lg-5 mt-4">
-                <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-twitter.svg">
+            <div class="col-md-6 col-lg-4 mt-lg-5 mt-4  text-center text-md-start">
+                <i class="material-icons colorenlaceblue text-5xl">groups</i>
                 <h5>CLIENTES</h5>
-                <p class="text-sm">Registra clientes en el sistema y accede a estadísticas avanzadas como historial de consumo, última fecha de compra y productos favoritos.
+                <p class="text-sm parrafo-corto">Registra clientes en el sistema y accede a estadísticas avanzadas como historial de consumo, última fecha de compra y productos favoritos.
                     Establece límites de crédito y descuentos automáticos para una gestión eficiente de la relación con los clientes.</p>
+                    <button class="btn btn-link colorenlaceblue p-0 ver-mas">Ver más</button>
             </div>
-            <div class="col-sm-6 col-lg-4 mt-lg-5 mt-4">
-                <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-zoom.svg">
+            <div class="col-md-6 col-lg-4 mt-lg-5 mt-4  text-center text-md-start">
+                <i class="material-icons colorenlacenaranja text-5xl">view_compact_alt</i>
                 <h5>REPORTES ESTADÍSTICOS</h5>
-                <p class="text-sm">Presenta toda la información del sistema en gráficos detallados que describen el estado actual del negocio en tiempo real. 
+                <p class="text-sm parrafo-corto">Presenta toda la información del sistema en gráficos detallados que describen el estado actual del negocio en tiempo real. 
                     Permite búsquedas por rangos de fecha para una comprensión fácil y rápida.</p>
+                    <button class="btn btn-link colorenlacenaranja p-0 ver-mas">Ver más</button>
             </div>
-            <div class="col-sm-6 col-lg-4 mt-lg-5 mt-4">
-                <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-twitter.svg">
+            <div class="col-md-6 col-lg-4 mt-lg-5 mt-4  text-center text-md-start">
+                <i class="material-icons colorenlaceverde text-5xl">payments</i>
                 <h5>PROPINAS</h5>
-                <p class="text-sm">Personaliza la gestión de propinas, ya sea para quitarlas, aumentarlas o adaptarlas según las necesidades del personal y del negocio.</p>
+                <p class="text-sm parrafo-corto">Personaliza la gestión de propinas, ya sea para quitarlas, aumentarlas o adaptarlas según las necesidades del personal y del negocio.</p>
+                <button class="btn btn-link colorenlaceverde p-0 ver-mas">Ver más</button>
             </div>
-            <div class="col-sm-6 col-lg-4 mt-lg-5 mt-4">
-                <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-dribbble.svg">
+            <div class="col-md-6 col-lg-4 mt-lg-5 mt-4  text-center text-md-start">
+                <i class="material-icons colorenlacered text-5xl">notifications</i>
                 <h5>NOTIFICACIONES</h5>
-                <p class="text-sm">Permite a los usuarios elegir las notificaciones que reciben por WhatsApp. Por ejemplo, asigna ciertas notificaciones a un grupo de personas
+                <p class="text-sm parrafo-corto">Permite a los usuarios elegir las notificaciones que reciben por WhatsApp. Por ejemplo, asigna ciertas notificaciones a un grupo de personas
                     para recibir cierres de caja, mientras que otros reciben información de inventarios. Proporciona flexibilidad en la comunicación interna.</p>
+                    <button class="btn btn-link colorenlacered p-0 ver-mas">Ver más</button>
             </div>
         </div>
     </div>
@@ -786,17 +817,17 @@
             <div class="col-lg-5 col-md-12 me-auto">
                 <div class="p-3 pt-0">
                     <div class="icon icon-shape icon-md bg-gradient-warning shadow-warning text-center mb-4">
-                        <i class="material-icons opacity-10">spa</i>
+                        <i class="material-icons opacity-10" style="font-size: 24px;">lock</i>
                     </div>
                     <h4 class="mb-4">Cierre de Caja Ciego con Control Total</h4>
-                    <p>Con nuestro innovador Cierre de Caja Ciego. Los cajeros pueden realizar el cierre sin visualizar
+                    <p class="parrafo-corto">Con nuestro innovador Cierre de Caja Ciego. Los cajeros pueden realizar el cierre sin visualizar
                         los totales de venta, garantizando transparencia. Con la declaración de efectivo y otros medios
                         de pago, nuestro sistema compara automáticamente con las cifras registradas, revelando cualquier
                         faltante o sobrante de dinero. Este enfoque meticuloso, que incluye ventas, propinas y base de
                         caja, previene fugas de dinero. Además, recibirás el resumen del cierre de caja directamente en
                         tu WhatsApp, brindándote acceso inmediato a información detallada. Con nosotros, el control
                         total está en tus manos.</p>
-                    <a href="javascript:;" class="text-dark icon-move-right">More about us
+                    <a href="javascript:;" class="text-dark icon-move-right ver-mas">Ver más...
                         <i class="fas fa-arrow-right text-sm ms-1"></i>
                     </a>
                 </div>
@@ -804,7 +835,7 @@
             <div class="col-lg-6 col-md-8">
                 <div class="position-relative">
                     <div class="blur-shadow-image">
-                        <img src="assets/img/otros//imgprincipal/cierredecajaciego.jpg" class="w-100 border-radius-xl mt-4 position-absolute" alt="sunset">
+                        <img src="assets/img/otros//imgprincipal/cierredecajaciego.jpg" class="w-100 border-radius-xl mt-4" alt="sunset">
                     </div>
                 </div>
             </div>
@@ -813,17 +844,17 @@
             <div class="col-lg-6 col-md-8 order-2 order-md-2 order-lg-1">
                 <div class="position-relative">
                     <div class="blur-shadow-image">
-                        <img src="assets/img/otros/imgprincipal/CierredeInventarioCiego.jpg" class="w-100 border-radius-xl position-absolute" alt="carz">
+                        <img src="assets/img/otros/imgprincipal/CierredeInventarioCiego.jpg" class="w-100 border-radius-xl" alt="carz">
                     </div>
                 </div>
             </div>
             <div class="col-lg-5 col-md-12 ms-auto order-1 order-md-1 order-lg-1">
                 <div class="p-3 pt-0">
                     <div class="icon icon-shape icon-md bg-gradient-info shadow-info text-center mb-4">
-                        <i class="material-icons opacity-10">celebration</i>
+                        <i class="material-icons opacity-10" style="font-size: 24px;">verified_user</i>
                     </div>
                     <h4 class="mb-4">Cierre de Inventario Ciego</h4>
-                    <p>Con nuestro revolucionario Cierre de Inventario Ciego los empleados realizan los conteos de
+                    <p class="parrafo-corto">Con nuestro revolucionario Cierre de Inventario Ciego los empleados realizan los conteos de
                         productos o ingredientes sin conocer las existencias registradas en el sistema, estableciendo
                         un proceso imparcial y transparente. Programa los cierres de inventario según tus necesidades
                         y organiza productos por categorías o bodegas.
@@ -831,7 +862,7 @@
                         notificándote al instante a través de WhatsApp sobre cualquier diferencia. Ya sea faltante o sobrante,
                         tendrás la información detallada para tomar medidas inmediatas. Controla tus inventarios de manera
                         eficiente y evita pérdidas innecesarias.</p>
-                    <a href="javascript:;" class="text-dark icon-move-right">More about us
+                    <a href="javascript:;" class="text-dark icon-move-right ver-mas">Ver más..
                         <i class="fas fa-arrow-right text-sm ms-1"></i>
                     </a>
                 </div>
@@ -843,50 +874,54 @@
 
 
 <section class="py-1">
-    <div class="container py-5">
+    <div class="container py-2">
         <div class="row">
             <div class="col-lg-3 col-sm-6">
                 <div class="p-3 text-center">
-                    <div class="icon icon-shape icon-md bg-gradient-danger shadow-danger mx-auto">
-                        <i class="material-icons opacity-10">inbox</i>
+                    <div class="icon icon-shape icon-md bg-gradient-blue shadow-blue mx-auto">
+                        <i class="material-icons opacity-10">equalizer</i>
                     </div>
                     <h5 class="mt-4">Stocks Mínimos</h5>
-                    <p>Optimiza la gestión de tu inventario estableciendo stocks mínimos para cada producto.
+                    <p class="parrafo-corto">Optimiza la gestión de tu inventario estableciendo stocks mínimos para cada producto.
                         Nuestro sistema te notificará automáticamente a través de WhatsApp cuando un producto 
                         alcance esa cantidad, permitiéndote tomar medidas preventivas de manera oportuna.</p>
+                    <button class="btn btn-link colorenlaceblue p-0 ver-mas">Ver más</button>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="p-3 text-center">
-                    <div class="icon icon-shape icon-md bg-gradient-danger shadow-danger mx-auto">
-                        <i class="material-icons opacity-10">person_search</i>
+                    <div class="icon icon-shape icon-md bg-gradient-blue shadow-blue mx-auto">
+                        <i class="material-icons opacity-10">drag_indicator</i>
                     </div>
                     <h5 class="mt-4">Frecuencias de Conteo</h5>
-                    <p>Define la frecuencia de conteo para cada producto, ya sea un día específico de la semana o todos los días.
+                    <p class="parrafo-corto">Define la frecuencia de conteo para cada producto, ya sea un día específico de la semana o todos los días.
                         Los empleados realizarán los conteos, y recibirás notificaciones de faltantes o sobrantes, 
                         asegurando un control continuo y eficiente.</p>
+                    <button class="btn btn-link colorenlaceblue p-0 ver-mas">Ver más</button>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="p-3 text-center">
-                    <div class="icon icon-shape icon-md bg-gradient-danger shadow-danger mx-auto">
+                    <div class="icon icon-shape icon-md bg-gradient-blue shadow-blue mx-auto">
                         <i class="material-icons opacity-10">stream</i>
                     </div>
                     <h5 class="mt-4">Reconteos y Tolerancias</h5>
-                    <p>Minimiza errores humanos al permitir que los empleados realicen reconteos en caso de discrepancias.
+                    <p class="parrafo-corto">Minimiza errores humanos al permitir que los empleados realicen reconteos en caso de discrepancias.
                         Además, establece tolerancias de pérdida personalizadas para determinar qué variaciones son relevantes.
                         Por ejemplo, puedes decidir que pequeñas discrepancias no sean significativas.</p>
+                    <button class="btn btn-link colorenlaceblue p-0 ver-mas">Ver más</button>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="p-3 text-center">
-                    <div class="icon icon-shape icon-md bg-gradient-danger shadow-danger mx-auto">
-                        <i class="material-icons opacity-10">vrpano</i>
+                    <div class="icon icon-shape icon-md bg-gradient-blue shadow-blue mx-auto">
+                        <i class="material-icons opacity-10">query_stats</i>
                     </div>
                     <h5 class="mt-4">Reportes de faltantes y sobrantes</h5>
-                    <p>Accede a reportes detallados que consolidan faltantes y sobrantes, proporcionándote una visión clara y fácil
+                    <p class="parrafo-corto">Accede a reportes detallados que consolidan faltantes y sobrantes, proporcionándote una visión clara y fácil
                         de analizar. Con esta información, podrás tomar decisiones informadas para mejorar la eficiencia de tu
                         inventario y garantizar un control total sobre tus recursos.</p>
+                    <button class="btn btn-link colorenlaceblue p-0 ver-mas">Ver más</button>
                 </div>
             </div>
         </div>
@@ -896,14 +931,13 @@
 <section class="py-5 pb-8">
     <div class="container">
         <div class="row">
-
             <div class="col-lg-5 col-md-12 me-auto">
                 <div class="p-3 pt-0">
                     <div class="icon icon-shape icon-md bg-gradient-warning shadow-warning text-center mb-4">
-                        <i class="material-icons opacity-10">spa</i>
+                        <i class="material-icons opacity-10">verified_user</i>
                     </div>
                     <h4 class="mb-4">Seguridad y Control con Claves Personalizadas</h4>
-                    <p>Nuestro sistema te brinda opciones de clave para operaciones críticas, como la eliminación de ítems, aplicación
+                    <p class="parrafo-corto">Nuestro sistema te brinda opciones de clave para operaciones críticas, como la eliminación de ítems, aplicación
                         de descuentos, cortesías o modificaciones de inventario. Puedes personalizar claves exclusivas para estas
                         acciones y asignarlas a empleados de confianza.
                         En todo momento, puedes estar tranquilo, ya que recibirás notificaciones en tiempo real a través de WhatsApp
@@ -911,7 +945,7 @@
                         motivo que ellos deben ingresar de forma obligatoria, proporcionándote información detallada sobre el motivo
                         o razón detrás de la operación realizada. Esto asegura una transparencia total y te permite estar siempre
                         informado sobre las acciones críticas en tu negocio aunque no estés presente en él.</p>
-                    <a href="javascript:;" class="text-dark icon-move-right">More about us
+                    <a href="javascript:;" class="text-dark icon-move-right ver-mas">Ver más...
                         <i class="fas fa-arrow-right text-sm ms-1"></i>
                     </a>
                 </div>
@@ -935,14 +969,14 @@
             <div class="col-lg-5 col-md-12 ms-auto order-1 order-md-1 order-lg-1">
                 <div class="p-3 pt-0">
                     <div class="icon icon-shape icon-md bg-gradient-info shadow-info text-center mb-4">
-                        <i class="material-icons opacity-10">celebration</i>
+                        <i class="material-icons opacity-10">sync</i>
                     </div>
                     <h4 class="mb-4">Gestión Eficiente con Múltiples Cajas</h4>
-                    <p>Además, podrás llevar a cabo varios cierres de caja de forma independiente para cada una 
+                    <p class="parrafo-corto">Además, podrás llevar a cabo varios cierres de caja de forma independiente para cada una 
                         de las cajas en operación. Esto facilita la obtención de los informes diarios denominados
                         "Zeta" específicos para cada caja, proporcionándote un control detallado sobre las 
                         actividades financieras de cada punto de venta.</p>
-                    <a href="javascript:;" class="text-dark icon-move-right">More about us
+                    <a href="javascript:;" class="text-dark icon-move-right ver-mas">Ver más...
                         <i class="fas fa-arrow-right text-sm ms-1"></i>
                     </a>
                 </div>
@@ -958,40 +992,43 @@
         <div class="row text-center">
             <div class="col-lg-4 col-md-6">
                 <div class="info">
-                    <div class="icon icon-lg icon-shape bg-gradient-primary shadow-primary text-center border-radius-xl mt-n4">
+                    <div class="icon icon-lg icon-shape bg-gradient-rojo shadow-rojo text-center border-radius-xl mt-n4">
                         <i class="material-icons opacity-10">local_shipping</i>
                     </div>
                     <h5 class="mt-4">Compras Automatizadas y proveedores</h5>
-                    <p>Facilitamos la gestión de compras al permitirte agregar fácilmente los items adquiridos.
+                    <p class="parrafo-corto">Facilitamos la gestión de compras al permitirte agregar fácilmente los items adquiridos.
                         Una vez realizada la compra, nuestro sistema actualizará automáticamente el inventario, 
                         ajustará los costos de los elementos y registrará la transacción correspondiente. Además,
                         te proporcionará información crucial al instante, indicándote si algún item ha experimentado
                         cambios de precio con respecto a las últimas compras realizadas</p>
+                    <button class="btn btn-link colorenlacered p-0 ver-mas">Ver más</button>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="info">
-                    <div class="icon icon-lg icon-shape bg-gradient-primary shadow-primary text-center border-radius-xl mt-n4">
-                        <i class="material-icons opacity-10">verified_user</i>
+                    <div class="icon icon-lg icon-shape bg-gradient-rojo shadow-rojo text-center border-radius-xl>
+                        <i class="material-icons opacity-10">ac_unit</i>
                     </div>
                     <h5 class="mt-4">Proceso de Producción de alimentos</h5>
-                    <p>Cuando llevas a cabo procesos de producción interna, nuestro sistema te respalda con la función
+                    <p class="parrafo-corto">Cuando llevas a cabo procesos de producción interna, nuestro sistema te respalda con la función
                         de Producción. Al ingresar los productos elaborados, el sistema no solo actualizará el 
                         inventario con las nuevas existencias sino que también descontará automáticamente los
                         ingredientes utilizados. Por ejemplo, si preparas una salsa, el sistema registrará la
                         producción realizada, ajustará el inventario y restará los insumos empleados.</p>
+                    <button class="btn btn-link colorenlacered p-0 ver-mas">Ver más</button>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="info">
-                    <div class="icon icon-lg icon-shape bg-gradient-primary shadow-primary text-center border-radius-xl mt-n4">
-                        <i class="material-icons opacity-10">favorite</i>
+                    <div class="icon icon-lg icon-shape bg-gradient-rojo shadow-rojo text-center border-radius-xl mt-n4 mx-auto">
+                        <i class="material-icons opacity-10">warehouse</i>
                     </div>
                     <h5 class="mt-4">Manejo de mermas y desperdicios</h5>
-                    <p>En Restofy, comprendemos la importancia de reducir mermas y desperdicios en tu negocio. Por ello, nuestro
+                    <p class="parrafo-corto">En Restofy, comprendemos la importancia de reducir mermas y desperdicios en tu negocio. Por ello, nuestro
                         sistema te ofrece la capacidad de establecer porcentajes de merma para cada producto. Ya sea al realizar
                         compras o producciones internas, el sistema descontará automáticamente y registrará las mermas de acuerdo
                         con tus especificaciones.</p>
+                    <button class="btn btn-link colorenlacered p-0 ver-mas">Ver más</button>
                 </div>
             </div>
         </div>
@@ -1063,40 +1100,40 @@
         </div>
         <div class="row mt-5">
             <div class="col-sm-6 col-lg-4 mt-lg-0 mt-4">
-                <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-google-cloud.svg">
+                <i class="material-icons colorenlaceverde text-5xl">menu</i>
                 <h5>Múltiples Menús</h5>
                 <p class="text-sm">Si manejas varios menús de productos en el restaurante los puedes ingresar y tener de manera separada,
                     esto permitirá que en el sistema no se mezclen los productos incluso puedes asignar ciertos menú a determinados
                     usuarios para tener un mejor control.</p>
             </div>
             <div class="col-sm-6 col-lg-4 mt-lg-0 mt-4">
-                <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-github.svg">
+                <i class="material-icons colorenlacenaranja text-5xl">apps</i>
                 <h5>Anotaciones Detalladas</h5>
                 <p class="text-sm">Evita errores en la cocina mediante anotaciones detalladas cuando los meseros toman el pedido.
                     Los chefs recibirán información sobre estas preferencias o modificaciones específicas en la comanda, 
                     garantizando la satisfacción del cliente y una experiencia sin contratiempos</p>
             </div>
             <div class="col-sm-6 col-lg-4 mt-lg-0 mt-4">
-                <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-amazon.svg">
+                <i class="material-icons colorenlaceblue text-5xl">join_left</i>
                 <h5>Unión de Mesas</h5>
                 <p class="text-sm">Facilita la experiencia social de tus clientes permitiendo la unión de mesas.
                     Cuando grupos de amigos desean compartir un espacio más amplio, el sistema simplifica este proceso,
                     mejorando la comodidad y la interacción entre los comensales.</p>
             </div>
             <div class="col-sm-6 col-lg-4 mt-lg-5 mt-4">
-                <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-dribbble.svg">
+                <i class="material-icons colorenlaceblack text-5xl">local_shipping</i>
                 <h5>Gestión de Domicilios</h5>
                 <p class="text-sm">Simplifica la toma de pedidos a domicilio con una base de datos de clientes que se autocompleta.
                     Registra la información relevante para agilizar el proceso y ofrece un servicio más eficiente y personalizado.</p>
             </div>
             <div class="col-sm-6 col-lg-4 mt-lg-5 mt-4">
-                <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-zoom.svg">
+                <i class="material-icons colorenlacered text-5xl">table_chart_view</i>
                 <h5>Modo Mostrador</h5>
                 <p class="text-sm">Acelera la toma de pedidos en situaciones de autoservicio con el modo mostrador. Ideal para
                     clientes que llegan, piden y pagan de inmediato, este modo agiliza el proceso y mejora la experiencia de compra.</p>
             </div>
             <div class="col-sm-6 col-lg-4 mt-lg-5 mt-4">
-                <img class="width-32-px mb-3" src="assets/img/logos/small-logos/logo-twitter.svg">
+                <i class="material-icons colorenlaceverde text-5xl">deck</i>
                 <h5>Zonificación de Mesas</h5>
                 <p class="text-sm">Si tu restaurante es extenso y cuenta con diferentes zonas de mesas, el sistema permite establecer y gestionar
                     estas zonas de manera eficiente. Asigna áreas específicas a empleados o segmenta el espacio según tus necesidades operativas.</p>
@@ -1111,47 +1148,46 @@
         <div class="row">
             <div class="col-lg-5">
                 <h3 class="mt-2">Restofy: Universo de soluciones</h3>
-                <p>No solo proporcionamos herramientas funcionales, sino que también te respaldamos en procesos cruciales.
+                <p class="parrafo-corto">No solo proporcionamos herramientas funcionales, sino que también te respaldamos en procesos cruciales.
                     Más allá de ser una plataforma integral para la gestión de tu restaurante, nos dedicamos a acompañarte
                     en todos los aspectos esenciales, permitiéndote enfocarte en lo verdaderamente importante. Te ofrecemos
                     servicios de consultorías, auditorías, capacitaciones y acompañamientos. Además, contamos con un catálogo
                     de equipos para satisfacer tus necesidades. Contáctanos para recibir tu propuesta personalizada.</p>
-                <a href="https://wa.link/57fbxi" target="_blank" class="text-primary text-sm icon-move-right">Mas Informacion
-                    <i class="fas fa-arrow-right text-xs ms-1" aria-hidden="true"></i>
+                    <button class="btn btn-link colorenlacenaranja ver-mas">Ver más</button>
                 </a>
             </div>
             <div class="col-lg-6 mt-lg-0 mt-5 ps-lg-0 ps-0 ms-auto">
                 <div class="p-3 info-horizontal d-flex align-items-center">
-                    <div class="icon icon-md icon-shape bg-gradient-primary shadow-primary text-center border-radius-xl w-auto px-3">
-                        <i class="material-icons opacity-10">mediation</i>
+                    <div class="icon icon-md icon-shape bg-gradient-warning shadow-primary text-center border-radius-xl w-auto px-3">
+                        <i class="material-icons opacity-10">trending_up</i>
                     </div>
                     <div class="description ps-3">
-                        <p class="mb-0"><strong>Consultorías</strong> Ofrecemos servicios de consultoría adaptados a las necesidades de tu
+                        <p class="mb-0"><strong>Consultorías: </strong> Ofrecemos servicios de consultoría adaptados a las necesidades de tu
                             restaurante. Realizamos análisis diagnósticos y brindamos acompañamiento en procesos clave como inventarios,
                             recetas, gestión de bodegas, manejo de caja, contabilidad, y más.</p>
                     </div>
                 </div>
                 <div class="p-3 info-horizontal d-flex align-items-center">
-                    <div class="icon icon-md icon-shape bg-gradient-primary shadow-primary text-center border-radius-xl w-auto px-3">
-                        <i class="material-icons opacity-10">settings_overscan</i>
+                    <div class="icon icon-md icon-shape bg-gradient-warning shadow-primary text-center border-radius-xl w-auto px-3">
+                        <i class="material-icons opacity-10">model_training</i>
                     </div>
                     <div class="description ps-3">
-                        <p class="mb-0"><strong>Capacitaciones</strong> Impartimos formación tanto al personal operativo como administrativo.
+                        <p class="mb-0"><strong>Capacitaciones: </strong> Impartimos formación tanto al personal operativo como administrativo.
                             Desde la implementación del sistema hasta prácticas personalizadas, garantizamos que tu equipo esté plenamente capacitado.</p>
                     </div>
                 </div>
                 <div class="p-3 info-horizontal d-flex align-items-center">
-                    <div class="icon icon-md icon-shape bg-gradient-primary shadow-primary text-center border-radius-xl w-auto px-3">
-                        <i class="material-icons opacity-10">token</i>
+                    <div class="icon icon-md icon-shape bg-gradient-warning shadow-primary text-center border-radius-xl w-auto px-3">
+                        <i class="material-icons opacity-10">supervised_user_circle</i>
                     </div>
                     <div class="description ps-3">
-                        <p class="mb-0"><strong>Auditorías</strong> Reconocemos que a veces es difícil supervisar cada detalle. Por ello, nos encargamos
+                        <p class="mb-0"><strong>Auditorías: </strong> Reconocemos que a veces es difícil supervisar cada detalle. Por ello, nos encargamos
                             de revisar y dar seguimiento a los procesos de tu restaurante de forma personalizada, asegurando que todo funcione correctamente.</p>
                     </div>
                 </div>
                 <div class="p-3 info-horizontal d-flex align-items-center">
-                    <div class="icon icon-md icon-shape bg-gradient-primary shadow-primary text-center border-radius-xl w-auto px-3">
-                        <i class="material-icons opacity-10">token</i>
+                    <div class="icon icon-md icon-shape bg-gradient-warning shadow-primary text-center border-radius-xl w-auto px-3">
+                        <i class="material-icons opacity-10">real_estate_agent</i>
                     </div>
                     <div class="description ps-3">
                         <p class="mb-0"><strong>Venta de Equipos</strong> Si necesitas equipos, te ofrecemos un catálogo diverso para que elijas el que mejor se adapte a tus necesidades.</p>
@@ -1398,48 +1434,38 @@
             </div>
         </div>
         <div class="row mt-5">
-            <div class="col-md-4 ms-auto my-auto">
-                <div class="cursor-pointer">
-                    <div class="card card-background">
-                        <div class="full-background">
-                            <img src="assets/img/otros/imgprincipal/optimizatusoperacionesen4pasos.jpg" class="w-100 border-radius-xl position-absolute" alt="carz">
-                        </div>
-                        <div class="card-body pt-7 text-center">
-                            <p class="text-white text-uppercase">Search and Discover!</p>
-                            <h3 class="text-white up mb-0">The Most Important New Technology</h3>
-                            <p class="text-white opacity-8">We’re constantly trying to express ourselves and actualize
-                                our dreams. If you have the opportunity to play this game of life you need to appreciate
-                                every moment.</p>
-                            <button type="button" class="btn btn-white btn-sm mt-3">Get Started</button>
-                        </div>
-                    </div>
+            <div class="col-lg-5 ms-auto my-auto">
+                <div class="">
+                    <img src="assets/img/otros/imgprincipal/optimizatusoperacionesen4pasos.jpg" class="w-100 border-radius-xl" alt="carz">
                 </div>
             </div>
-            <div class="col-md-5 me-auto my-auto ms-md-5">
-                <div class="p-3 info-horizontal d-flex">
-                    <div>
-                        <h5>1. Toma Pedidos con Facilidad</h5>
-                        <p>Facilita la toma de pedidos mediante nuestra interfaz intuitiva. Los meseros pueden registrar los pedidos directamente en la mesa, 
-                            y la comanda se enviará automáticamente a la cocina al instante.</p>
+            <div class="col-lg-5 me-auto my-auto ms-lg-5">
+                <div class="row">
+                    <div class="p-3 info-horizontal col-md-6 col-lg-12">
+                        <div>
+                            <h5>1. Toma Pedidos con Facilidad</h5>
+                            <p>Facilita la toma de pedidos mediante nuestra interfaz intuitiva. Los meseros pueden registrar los pedidos directamente en la mesa, 
+                                y la comanda se enviará automáticamente a la cocina al instante.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="p-3 info-horizontal d-flex">
-                    <div>
-                        <h5>2. Eficiencia en el Inventario</h5>
-                        <p>Optimiza la gestión de tu cocina, mejora la eficiencia en la preparación y entrega de platillos,
-                            mientras controlas tu inventario de manera precisa para evitar fugas y pérdidas.</p>
+                    <div class="p-3 info-horizontal col-md-6 col-lg-12">
+                        <div>
+                            <h5>2. Eficiencia en el Inventario</h5>
+                            <p>Optimiza la gestión de tu cocina, mejora la eficiencia en la preparación y entrega de platillos,
+                                mientras controlas tu inventario de manera precisa para evitar fugas y pérdidas.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="p-3 info-horizontal d-flex">
-                    <div>
-                        <h5>3. Controla tu Caja</h5>
-                        <p>Agiliza las transacciones de pago de pedidos y lleva un control detallado de tu caja. Los cierres de caja rápidos y sencillos te permitirán evitar pérdidas de dinero.</p>
+                    <div class="p-3 info-horizontal col-md-6 col-lg-12">
+                        <div>
+                            <h5>3. Controla tu Caja</h5>
+                            <p>Agiliza las transacciones de pago de pedidos y lleva un control detallado de tu caja. Los cierres de caja rápidos y sencillos te permitirán evitar pérdidas de dinero.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="p-3 info-horizontal d-flex">
-                    <div>
-                        <h5>4. Administración y Reportes</h5>
-                        <p>Maximiza tus ingresos, minimiza pérdidas y lleva tu restaurante a nuevas alturas con herramientas administrativas avanzadas y reportes detallados para una toma de decisiones informada.</p>
+                    <div class="p-3 info-horizontal col-md-6 col-lg-12">
+                        <div>
+                            <h5>4. Administración y Reportes</h5>
+                            <p>Maximiza tus ingresos, minimiza pérdidas y lleva tu restaurante a nuevas alturas con herramientas administrativas avanzadas y reportes detallados para una toma de decisiones informada.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1451,7 +1477,7 @@
 <div class="py-5">
     <div class="container">
         <div class="row">
-            <div class="col-8 mx-auto text-center">
+            <div class="col-9 mx-auto text-center">
                 <h3 class="font-weight-bolder">Más de 350 Restaurantes confían en RestoFy</h3>
             </div>
         </div>

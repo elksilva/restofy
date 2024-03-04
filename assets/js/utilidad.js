@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     botonesVerMas.forEach(function(boton) {
       boton.addEventListener("click", function() {
-        const parrafo = boton.previousElementSibling; // Obtener el párrafo hermano anterior
+        const parrafo = boton.previousElementSibling; 
         parrafo.classList.toggle("show-more"); 
         if (parrafo.classList.contains("show-more")) {
           boton.textContent = "Ver menos"; 

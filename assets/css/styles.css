@@ -91,3 +91,16 @@
       display: block;
     }
   }
+
+
+  .precios {
+    display: none;
+  }
+
+  .text-dark p {
+    font-size: 3.8rem;
+  }
+
+  .colorh2 {
+    color: #2196f3 !important;
+  }

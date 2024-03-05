@@ -1,4 +1,6 @@
-
+.tituloprincipal {
+  font-size: calc(1.325rem + 0.9vw);
+}
 .logonav {
     width: auto !important;
     height: 2rem;

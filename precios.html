@@ -29,7 +29,7 @@
 
 <!-- Navbar Light -->
 
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white z-index-3 py-3 opacity-98">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white z-index-4 py-3 opacity-98">
     <div class="container navbarmod">
         <a class="navbar-brand" href="index.html" rel="tooltip" title="Restofy - Sistema para Restaurantes" data-placement="bottom">
             <img src="assets/img/otros/logonav.svg" alt="logo restofy" width:100% !important" height="30" class="logonav position-absolute start-0 top-0 w-100">
@@ -84,15 +84,15 @@
             <div class="col-lg-4 col-md-10 d-flex justify-content-center flex-column mx-auto">
                 <h1 class="mt-3">Una sola tarifa con todo incluido</h1>
                 <p class="lead">Manejamos una única tarifa que trae todas las características incluidas. Para restaurantes que buscan tener el control total de su negocio.</p>
-                <div class="nav-wrapper me-auto mt-4 mb-5 mb-lg-0">
+                <div class="nav-wrapper d-flex justify-content-center justify-content-md-start mt-4 mb-5 mb-lg-0">
                     <ul class="nav nav-pills nav-fill shadow p-1" id="tabs-pricing" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link mb-sm-3 mb-md-0 active" id="tabs-iconpricing-tab-1" data-bs-toggle="tab" href="#personal" role="tab" aria-controls="tabs-pricing-tab-1" aria-selected="true">
+                            <a class="nav-link mb-md-0 active" id="tabs-iconpricing-tab-1" data-bs-toggle="tab" href="#personal" role="tab" aria-controls="tabs-pricing-tab-1" aria-selected="true">
                                 Mensual
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mb-sm-3 mb-md-0" id="tabs-iconpricing-tab-2" data-bs-toggle="tab" href="#commercial" role="tab" aria-controls="tabs-pricing-tab-2" aria-selected="false">
+                            <a class="nav-link mb-md-0" id="tabs-iconpricing-tab-2" data-bs-toggle="tab" href="#commercial" role="tab" aria-controls="tabs-pricing-tab-2" aria-selected="false">
                                 Anual
                             </a>
                         </li>
@@ -100,17 +100,17 @@
                 </div>
             </div>
             
-            <div class="col-lg-8 col-md-12 ms-lg-auto">
-                <div class="tab-content tab-space">
+            <div class="col-lg-6 col-md-12 ms-lg-auto">
+                <div class="tab-content tab-space pe-2">
                     <div class="tab-pane active" id="personal">
                         <div class="row justify-content-end">
-                            <div class="col-md-6">
+                            <div class="col-md-7 col-lg-9 col-xl-8">
                                 <div class="card card-pricing bg-gradient-rojo border-0 text-center mb-4 overflow-hidden">
                                     <img src="../../assets/img/pattern-lines.svg" alt="pattern-lines" class="position-absolute opacity-6 h-100">
                                     <div class="card-header bg-transparent">
                                         <h6 class="text-uppercase text-white ls-1 py-3 mb-0">ÚNICA TARIFA</h6>
                                     </div>
-                                    <div class="card-body text-white position-relative">
+                                    <div class="card-body text-white position-relative p-4">
                                         <p class="display-2 font-weight-bold mb-0">$86.000</p>
                                         <span>por mes</span>
                                         <ul class="list-unstyled my-4">
@@ -140,12 +140,12 @@
                     </div>
                     <div class="tab-pane" id="commercial">
                         <div class="row justify-content-end">
-                            <div class="col-md-6">
+                            <div class="col-md-7 col-lg-9 col-xl-8">
                                 <div class="card card-pricing bg-white border-0 text-center mb-4">
                                     <div class="card-header bg-transparent">
                                         <h6 class="text-uppercase ls-1 py-3 mb-0">ÚNICA TARIFA</h6>
                                     </div>
-                                    <div class="card-body text-dark">
+                                    <div class="card-body no-text-dark p-4">
                                         <p class="display-2 font-weight-bold mb-0">$860.000</p>
                                         <span>pagas por 1 año</span>
                                         <ul class="list-unstyled my-4">
@@ -177,8 +177,7 @@
             </div>
         </div>
     </div>
-</section>
-<!-- END Pricing w/ 2 cards & nav tabs -->
+</section><!-- END Pricing w/ 2 cards & nav tabs -->
 
 
 <!-- Sección de descripción para costo de instalación -->
@@ -248,7 +247,7 @@
 
 
 <!-- Sección de certificado digital factura electronica -->
-<section class="py-lg-5 bg-light">
+<section class="py-2 py-lg-5 bg-light">
     <div class="container">
         <div class="row">
             <div class="card">
@@ -313,944 +312,888 @@
                 <h2 class="colorh2 text-center">Características de Nuestro Plan</h2>
                 <p class="lead mb-5">Manejamos una única tarifa, todo está incluido</p>
             </div>
+
             <div class="col-lg-10">
-                <div class="table-responsive">
-                    <table class="table table-pricing">
-                        <thead class="text-light">
-                        <tr>
-                            <th class="ps-2">
-                                <h6 class="mb-0" data-toggle="collapse" data-target="#space-individual">DESTACADAS</h6>
-                            </th>
-                            <th class="text-center">
-                                <h6 class="font-weight-bold"></h6>
-                                <h5 class="font-weight-bolder text-darker mb-0"></h5>
-                            </th>
-                        </tr>
-                        </thead>
-                        <tbody id="space-individual">
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Alertas al Instante por WhatsApp</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Las Facturas Electrónicas y POS Electrónicas son ilimitadas</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Estandarización de RECETAS Ilimitadas</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Cierre de Caja Ciego </span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Cierre de Inventario Ciego</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Seguridad y Control con Contraseñas Personalizadas</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Múltiples Cajas (ilimitadas)</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Inteligencia Artificial</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Control Preciso de Costos</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        </tbody>
-                
-                        <tbody id="developer-tools" class="collapse">
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Custom messages</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-minus text-secondary text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Multiple requests</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-minus text-secondary text-xs"></i>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
+                <div class="no-table-responsive accordion" id="accordionx">
+                        
+                    <div class=" mb-3">
+                        <div class="accordion-header" id="heading1">
+                            <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                <h6 class="ps-2">DESTACADAS</h6>
+                                <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
+                                <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#accordionx">
+                            <table class="table table-pricing">   
+                                <tbody id="space-individual">
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Alertas al Instante por WhatsApp</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Facturas Electrónicas y POS Electrónicas son ilimitadas</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Estandarización de RECETAS Ilimitadas</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Cierre de Caja Ciego </span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Cierre de Inventario Ciego</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Seguridad y Control con Contraseñas Personalizadas</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Múltiples Cajas (ilimitadas)</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Inteligencia Artificial</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Control Preciso de Costos</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class=" mb-3">
+                        <div class="accordion-header" id="heading2">
+                            <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                <h6 class="ps-2">PEDIDOS</h6>
+                                <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
+                                <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionx">
+                            <table class="table table-pricing">
+                                <tbody id="space-individual">
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Toma de pedidos desde cualquier dispositivo</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Anexos  y anotaciones en pedidos</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Cambio de ítems</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Productos con múltiples precios</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Dividir cuentas</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Manejo de propinas</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Domicilios</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Manejo de zonas</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Unir mesas</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Alertas en mesas demoradas</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Múltiples menús</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Productos Favoritos</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Cambios de mesa</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Agregar prioridad alta en los pedidos</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Notificaciones SMS para enviar a clientes</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
 
 
-                    <table class="table table-pricing">
-                        <thead class="text-light">
-                        <tr>
-                            <th class="ps-2">
-                                <h6 class="mb-0" data-toggle="collapse" data-target="#space-individual">PEDIDOS</h6>
-                            </th>
-                            <th class="text-center">
-                                <h6 class="font-weight-bold"></h6>
-                                <h5 class="font-weight-bolder text-darker mb-0"></h5>
-                            </th>
-                        </tr>
-                        </thead>
-                        <tbody id="space-individual">
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Toma de pedidos desde cualquier dispositivo</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Anexos  y anotaciones en pedidos</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Cambio de ítems</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Productos con múltiples precios</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Dividir cuentas</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Manejo de propinas</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Domicilios</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Manejo de zonas</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Unir mesas</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Alertas en mesas demoradas</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Múltiples menús</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Productos Favoritos</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Cambios de mesa</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Agregar prioridad alta en los pedidos</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Notificaciones SMS para enviar a clientes</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        </tbody>
-                       
-                        <tbody id="developer-tools" class="collapse">
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Custom messages</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-minus text-secondary text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Multiple requests</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-minus text-secondary text-xs"></i>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
+                    <div class=" mb-3">
+                        <div class="accordion-header" id="heading3">
+                            <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                <h6 class="ps-2">COCINAS Y COMANDAS</h6>
+                                <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
+                                <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionx">
+                            <table class="table table-pricing">
+                                <tbody id="space-individual">
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Múltiples zonas de impresión de comandas</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Pantalla de pedidos</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Despacho de pedidos</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Medición de tiempos de atención</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Personalización de las comandas</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Duplicados de comandas</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                            </table>
+                        </div>
+                    </div>
 
+                    <div class=" mb-3">
+                        <div class="accordion-header" id="heading4">
+                            <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                <h6 class="ps-2">MANEJO DE CAJA</h6>
+                                <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
+                                <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionx">
+                            <table class="table table-pricing">
+                                <tbody id="space-individual">
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Múltiples medios de pago (ilimitado)</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Múltiples cajas (ilimitado)</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Múltiples turnos independientes</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Cierre de caja ciego</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Imprimir precuenta y factura</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Apertura del cajón monedero desde el sistema</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Base de caja</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Descuentos</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Cortesías</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Alertas en mesas demoradas</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Gestión de gastos</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Créditos y clientes</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Abonos</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Zeta diario</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Personalizar secuencias y rangos de facturación</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Manejo de bancos, cuentas y bolsillos</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Traslados de dinero a cuentas</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Modulo para repartición de propinas automático</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
 
-                    <table class="table table-pricing">
-                        <thead class="text-light">
-                        <tr>
-                            <th class="ps-2">
-                                <h6 class="mb-0" data-toggle="collapse" data-target="#space-individual">COCINAS Y COMANDAS</h6>
-                            </th>
-                            <th class="text-center">
-                                <h6 class="font-weight-bold"></h6>
-                                <h5 class="font-weight-bolder text-darker mb-0"></h5>
-                            </th>
-                        </tr>
-                        </thead>
-                        <tbody id="space-individual">
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Múltiples zonas de impresión de comandas</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Pantalla de pedidos</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Despacho de pedidos</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Medición de tiempos de atención</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Personalización de las comandas</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Duplicados de comandas</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        </tbody>
-                
-                        <tbody id="developer-tools" class="collapse">
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Custom messages</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-minus text-secondary text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Multiple requests</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-minus text-secondary text-xs"></i>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
+                    <div class=" mb-3">
+                        <div class="accordion-header" id="heading5">
+                            <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                <h6 class="ps-2">INVENTARIOS</h6>
+                                <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
+                                <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionx">
+                            <table class="table table-pricing">
+                                <tbody id="space-individual">
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Recetas</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Subrecetas</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Manejo de almacén</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Gestión de productos ilimitados</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Ingredientes</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Adicionales</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Combos</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Variaciones</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Unidades de medida</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Conversiones entre unidades</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Lugares de almacenamientos </span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Categorías y grupos de productos</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Cierre de inventario ciego</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Conteos de inventarios</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Asistente de conteo</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Stocks mínimos</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Frecuencias de conteos</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Reconteos - tolerancias</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Stock mínimo</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Reportes de faltantes y sobrantes de inventario</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Compras y proveedores</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Producción de alimentos</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Traslados entre bodegas</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Gestión de mermas y desperdicios</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Costos</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Utilidades</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
 
-                    <table class="table table-pricing">
-                        <thead class="text-light">
-                        <tr>
-                            <th class="ps-2">
-                                <h6 class="mb-0" data-toggle="collapse" data-target="#space-individual">MANEJO DE CAJA</h6>
-                            </th>
-                            <th class="text-center">
-                                <h6 class="font-weight-bold"></h6>
-                                <h5 class="font-weight-bolder text-darker mb-0"></h5>
-                            </th>
-                        </tr>
-                        </thead>
-                        <tbody id="space-individual">
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Múltiples medios de pago (ilimitado)</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Múltiples cajas (ilimitado)</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Múltiples turnos independientes</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Cierre de caja ciego</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Imprimir precuenta y factura</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Apertura del cajón monedero desde el sistema</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Base de caja</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Descuentos</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Cortesías</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Alertas en mesas demoradas</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Gestión de gastos</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Créditos y clientes</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Abonos</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Zeta diario</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Personalizar secuencias y rangos de facturación</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Manejo de bancos, cuentas y bolsillos</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Traslados de dinero a cuentas</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Modulo para repartición de propinas automático</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
+                    <div class=" mb-3">
+                        <div class="accordion-header" id="heading6">
+                            <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                <h6 class="ps-2">SISTEMA</h6>
+                                <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
+                                <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionx">
+                            <table class="table table-pricing">
+                                <tbody id="space-individual">
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Dashboards gráficos</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Notificaciones de WhatsApp en tiempo real</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Inteligencia Artificial </span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Todos los reportes descargables (Excel, PDF, imprimir)</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Reportes por rangos de fechas</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Servidor de impresión</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Gestión de impresoras por USB y por RED</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Usuarios ilimitados</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Permisos y restricciones para cada usuario</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Mesas Ilimitadas</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Parametrización completa del sistema</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Acceso desde cualquier dispositivo</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Historial de almacenamiento ilimitado</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Claves de control para operaciones críticas o delicadas</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Soporte</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Acceso a página de ayuda y tutoriales</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
 
-                    <table class="table table-pricing">
-                        <thead class="text-light">
-                        <tr>
-                            <th class="ps-2">
-                                <h6 class="mb-0" data-toggle="collapse" data-target="#space-individual">INVENTARIOS</h6>
-                            </th>
-                            <th class="text-center">
-                                <h6 class="font-weight-bold"></h6>
-                                <h5 class="font-weight-bolder text-darker mb-0"></h5>
-                            </th>
-                        </tr>
-                        </thead>
-                        <tbody id="space-individual">
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Recetas</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Subrecetas</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Manejo de almacén</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Gestión de productos ilimitados</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Ingredientes</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Adicionales</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Combos</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Variaciones</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Unidades de medida</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Conversiones entre unidades</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Lugares de almacenamientos </span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Categorías y grupos de productos</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Cierre de inventario ciego</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Conteos de inventarios</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Asistente de conteo</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Stocks mínimos</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Frecuencias de conteos</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Reconteos - tolerancias</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Stock mínimo</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Reportes de faltantes y sobrantes de inventario</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Compras y proveedores</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Producción de alimentos</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Traslados entre bodegas</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Gestión de mermas y desperdicios</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Costos</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Utilidades</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-
-                    <table class="table table-pricing">
-                        <thead class="text-light">
-                        <tr>
-                            <th class="ps-2">
-                                <h6 class="mb-0" data-toggle="collapse" data-target="#space-individual">SISTEMA</h6>
-                            </th>
-                            <th class="text-center">
-                                <h6 class="font-weight-bold"></h6>
-                                <h5 class="font-weight-bolder text-darker mb-0"></h5>
-                            </th>
-                        </tr>
-                        </thead>
-                        <tbody id="space-individual">
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Dashboards gráficos</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Notificaciones de WhatsApp en tiempo real</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Inteligencia Artificial </span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Todos los reportes descargables (Excel, PDF, imprimir)</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Reportes por rangos de fechas</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Servidor de impresión</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Gestión de impresoras por USB y por RED</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Usuarios ilimitados</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Permisos y restricciones para cada usuario</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Mesas Ilimitadas</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Parametrización completa del sistema</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Acceso desde cualquier dispositivo</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Historial de almacenamiento ilimitado</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Claves de control para operaciones críticas o delicadas</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Soporte</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Acceso a página de ayuda y tutoriales</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-
-                    <table class="table table-pricing">
-                        <thead class="text-light">
-                        <tr>
-                            <th class="ps-2">
-                                <h6 class="mb-0" data-toggle="collapse" data-target="#space-individual">FACTURA ELECTRONICA</h6>
-                            </th>
-                            <th class="text-center">
-                                <h6 class="font-weight-bold"></h6>
-                                <h5 class="font-weight-bolder text-darker mb-0"></h5>
-                            </th>
-                        </tr>
-                        </thead>
-                        <tbody id="space-individual">
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Facturas electrónicas</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Notas crédito</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Notas debito</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Documento soporte</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-3">
-                                <span class="text-xs">Nomina electrónica</span>
-                            </td>
-                            <td class="text-center py-3">
-                                <i class="fas fa-check text-success text-xs"></i>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+                    <div class="mb-3">
+                        <div class="accordion-header" id="heading7">
+                            <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                <h6 class="ps-2">FACTURA ELECTRONICA</h6>
+                                <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
+                                <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionx">
+                            <table class="table table-pricing">
+                                <tbody id="space-individual">
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Facturas electrónicas</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Notas crédito</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Notas debito</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Documento soporte</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-3">
+                                            <span class="text-xs">Nomina electrónica</span>
+                                        </td>
+                                        <td class="text-center py-3">
+                                            <i class="fas fa-check text-success text-xs"></i>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    
+                </div> <!--fin no-table-responsive accordion-->
+            </div> <!-- fin col-lg-10-->
         </div>
     </div>
 </section>
-
 
 
 <section class="py-5 mt-5">
@@ -1268,8 +1211,8 @@
                     <h5 class="accordion-header" id="headingOne">
                         <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             ¿Realizan cobros por instalación?
-                            <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
-                            <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
+                            <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
+                            <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
                         </button>
                     </h5>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionRental">
@@ -1282,8 +1225,8 @@
                     <h5 class="accordion-header" id="headingTwo">
                         <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             ¿Qué sucede si no pago la suscripción?
-                            <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
-                            <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
+                            <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
+                            <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
                         </button>
                     </h5>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionRental">
@@ -1298,8 +1241,8 @@
                     <h5 class="accordion-header" id="headingFifth">
                         <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifth" aria-expanded="false" aria-controls="collapseFifth">
                             ¿Ofrecen capacitación para el sistema?
-                            <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
-                            <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
+                            <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
+                            <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
                         </button>
                     </h5>
                     <div id="collapseFifth" class="accordion-collapse collapse" aria-labelledby="headingFifth" data-bs-parent="#accordionRental">
@@ -1312,8 +1255,8 @@
                     <h5 class="accordion-header" id="headingSixth">
                         <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSixth" aria-expanded="false" aria-controls="collapseSixth">
                             ¿Cuáles son las modalidades de pago?
-                            <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
-                            <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
+                            <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
+                            <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
                         </button>
                     </h5>
                     <div id="collapseSixth" class="accordion-collapse collapse" aria-labelledby="headingSixth" data-bs-parent="#accordionRental">
@@ -1326,8 +1269,8 @@
                     <h5 class="accordion-header" id="headingSeventh">
                         <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeventh" aria-expanded="false" aria-controls="collapseSeventh">
                             ¿Cómo funciona la suscripción?
-                            <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
-                            <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
+                            <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
+                            <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
                         </button>
                     </h5>
                     <div id="collapseSeventh" class="accordion-collapse collapse" aria-labelledby="headingSeventh" data-bs-parent="#accordionRental">
@@ -1340,8 +1283,8 @@
                     <h5 class="accordion-header" id="headingEigth">
                         <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEigth" aria-expanded="false" aria-controls="collapseEigth">
                             ¿Realizan la instalación de los equipos?
-                            <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
-                            <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
+                            <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
+                            <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
                         </button>
                     </h5>
                     <div id="collapseEigth" class="accordion-collapse collapse" aria-labelledby="headingEigth" data-bs-parent="#accordionRental">
@@ -1352,14 +1295,14 @@
                 </div>
 
                 <div class="accordion-item mb-3">
-                    <h5 class="accordion-header" id="headingEigth">
-                        <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEigth" aria-expanded="false" aria-controls="collapseEigth">
+                    <h5 class="accordion-header" id="headingNine">
+                        <button class="accordion-button border-bottom font-weight-bold text-start" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                             ¿Qué debo hacer si necesito más capacitaciones?
-                            <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
-                            <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute end-0" aria-hidden="true"></i>
+                            <i class="collapse-close fa fa-plus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
+                            <i class="collapse-open fa fa-minus text-xs pt-1 position-absolute" style="right: 3%;" aria-hidden="true"></i>
                         </button>
                     </h5>
-                    <div id="collapseEigth" class="accordion-collapse collapse" aria-labelledby="headingEigth" data-bs-parent="#accordionRental">
+                    <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionRental">
                         <div class="accordion-body text-sm opacity-8">
                             Puedes solicitar capacitación adicional con nuestro equipo, quienes te brindarán ayuda personalizada en el tema de tu interés. Esto podría tener un costo adicional.
                         </div>

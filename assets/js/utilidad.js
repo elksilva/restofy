@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     AOS.init();
+    
 });
 
 document.getElementById("btnIrAPrecios").addEventListener("click", function() {

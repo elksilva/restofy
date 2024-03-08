@@ -1,5 +1,15 @@
 .tituloprincipal {
-  font-size: calc(1.325rem + 0.9vw);
+  @media (min-width:  992px) { 
+    font-size: 2rem;
+    line-height: 1.25;
+    margin-bottom: 1.25rem !important;
+  }
+}
+.textoprincipal {
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+  margin-bottom: 1rem !important;
 }
 .logonav {
     width: auto !important;
@@ -109,4 +119,30 @@
 
   .colorh2 {
     color: #2196f3 !important;
+  }
+  @media (max-width:  992px) { 
+    .margeninferior {
+      padding-bottom: 1.5rem;
+    }
+  }
+  @media (min-width: 992px) {
+    .m-lg-left-3rem {
+      margin-left: 22rem !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .wpersonalizado {
+      width: 35rem;
+    }
+  }
+
+  @media (max-width:  975px) { 
+    .consultoriadesktop {
+      display: none !important;
+    }
+  }
+  @media (min-width:  976px) { 
+    .consultoriamovil {
+      display: none !important;
+    }
   }

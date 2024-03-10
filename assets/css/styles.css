@@ -146,3 +146,7 @@
       display: none !important;
     }
   }
+  .img-custom-size {
+    width: 128px; /* Ancho deseado para las imágenes */
+    height: auto; /* Ajusta automáticamente la altura para mantener la proporción */
+}

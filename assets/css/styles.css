@@ -1,3 +1,6 @@
+p {
+  color: #030b27 !important;
+}
 .tituloprincipal {
   @media (min-width:  992px) { 
     font-size: 2rem;
@@ -149,4 +152,8 @@
   .img-custom-size {
     width: 128px; /* Ancho deseado para las imágenes */
     height: auto; /* Ajusta automáticamente la altura para mantener la proporción */
+}
+
+.text-mi-color {
+  color: #030b27; 
 }

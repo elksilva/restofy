@@ -10160,7 +10160,7 @@ fieldset:disabled .btn {
 }
 
 .text-dark {
-  color: #344767 !important;
+  color: #030b27 !important;
 }
 
 .text-white {
@@ -25526,7 +25526,7 @@ p,
 
 p {
   line-height: 1.625;
-  font-weight: 300;
+  /* font-weight: 300; */
 }
 
 .text-sans-serif {

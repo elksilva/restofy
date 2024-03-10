@@ -47,23 +47,22 @@
         </button>
 
         <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
-            <ul class="navbar-nav navbar-nav-hover mx-auto">
-
-                <li class="nav-item mx-2">
+            <ul class="navbar-nav navbar-nav-hover mx-auto" role="menubar">
+                <li class="nav-item mx-2" role="menuitem">
                     <a class="style-linea nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" href="precios.html" role="button">
                         Precios
                     </a>
                 </li>
-                <li class="nav-item mx-2">
+                <li class="nav-item mx-2" role="menuitem">
                     <a href="https://ayuda.pilotto.app/" target="_blank" class="style-linea nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" role="button">
                         Centro de Ayuda
                     </a>
                 </li>
             </ul>
-
-            <ul class="navbar-nav d-lg-block d-none">
-                <li class="nav-item">
-                    <a href="https://info.restofy.es/registro" class="btn btn-lg  bg-gradient-rojo  mb-0 me-1" role="button">Prueba gratis</a>
+            
+            <ul class="navbar-nav d-lg-block d-none" role="menubar">
+                <li class="nav-item" role="menuitem">
+                    <a href="https://info.restofy.es/registro" class="btn btn-lg bg-gradient-rojo mb-0 me-1" role="button">Prueba gratis</a>
                 </li>
             </ul>
         </div>
@@ -106,7 +105,7 @@
                                         <h6 class="text-uppercase text-white ls-1 py-3 mb-0">ÚNICA TARIFA</h6>
                                     </div>
                                     <div class="card-body text-white position-relative p-4">
-                                        <p class="display-2 font-weight-bold mb-0">$86.000</p>
+                                        <h6 class="display-2 text-white font-weight-bold mb-0">$86.000</h6>
                                         <span>por mes</span>
                                         <ul class="list-unstyled my-4">
                                             <li class="align-items-center">
@@ -141,7 +140,7 @@
                                         <h6 class="text-uppercase ls-1 py-3 mb-0">ÚNICA TARIFA</h6>
                                     </div>
                                     <div class="card-body p-4">
-                                        <p class="display-2 font-weight-bold mb-0">$860.000</p>
+                                        <h6 class="display-2 font-weight-bold mb-0">$860.000</h6>
                                         <span>pagas por 1 año</span>
                                         <ul class="list-unstyled my-4">
                                             <li class="align-items-center">
@@ -1342,13 +1341,13 @@
                 </p>
                 <div class="row justify-space-between">
                     <div class="col-12 mx-auto">
-                        <button type="button" class="btn btn-icon-only btn-facebook">
+                        <button type="button" aria-label="Facebook" class="btn btn-icon-only btn-facebook">
                             <span class="btn-inner--icon mr-1"><i class="fab fa-facebook"></i></span>
                         </button>
-                        <button type="button" class="btn btn-icon-only btn-instagram">
+                        <button type="button" aria-label="instagram" class="btn btn-icon-only btn-instagram">
                             <span class="btn-inner--icon mr-1"><i class="fab fa-instagram"></i></span>
                         </button>
-                        <button type="button" class="btn btn-icon-only btn-youtube">
+                        <button type="button" aria-label="youtube" class="btn btn-icon-only btn-youtube">
                             <span class="btn-inner--icon"><i class="fab fa-youtube"></i></span>
                         </button>
                     </div>
@@ -1375,7 +1374,7 @@
                     <ul class="flex-column ms-lg-n3 nav">
 
                         <li class="nav-item">
-                            <a class="nav-link text-white opacity-8 text-sm" href="precios.html">Lista de precios</a>
+                            <a class="nav-link text-white opacity-8 text-sm" href="precios">Lista de precios</a>
                         </li>
                     </ul>
                 </div>
@@ -1385,16 +1384,16 @@
                 <div>
                     <h6 class="text-white text-sm mb-1">Ayuda</h6>
                     <ul class="flex-column ms-lg-n3 nav">
-                        <li class="nav-item">
-                            <a class="nav-link text-white opacity-8 text-sm" href="https://ayuda.pilotto.app">Base de conocimientos</a>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link text-white opacity-8 text-sm" role="tab" href="https://ayuda.pilotto.app">Base de conocimientos</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link text-white opacity-8 text-sm" href="https://ayuda.pilotto.app">Preguntas frecuentes</a>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link text-white opacity-8 text-sm" role="tab" href="https://ayuda.pilotto.app">Preguntas frecuentes</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link text-white opacity-8 text-sm" href="https://api.whatsapp.com/send?phone=573135421983">Soporte</a>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link text-white opacity-8 text-sm" role="tab" href="https://api.whatsapp.com/send?phone=573135421983">Soporte</a>
                         </li>
                     </ul>
                 </div>
@@ -1412,17 +1411,14 @@
                 <p class="mb-3 text-lg text-white font-weight-bold">
                     La verdadera libertad en los negocios se encuentra en la sabiduría de automatizar y mejorar continuamente - Restofy
                 </p>
-                <a href="javascript:;" target="_blank" class="text-white me-xl-4 me-4 opacity-8">
+                <a href="javascript:;" target="_blank" aria-label="Facebook" class="text-white me-xl-4 me-4 opacity-8">
                     <span class="fab fa-dribbble" aria-hidden="true"></span>
                 </a>
-                <a href="javascript:;" target="_blank" class="text-white me-xl-4 me-4 opacity-8">
+                <a href="javascript:;" target="_blank" aria-label="instagram" class="text-white me-xl-4 me-4 opacity-8">
                     <span class="fab fa-twitter" aria-hidden="true"></span>
                 </a>
-                <a href="javascript:;" rel="nofollow" target="_blank" class="text-white me-xl-4 me-4 opacity-8">
+                <a href="javascript:;" rel="nofollow" target="_blank" aria-label="whatsapp" class="text-white me-xl-4 me-4 opacity-8">
                     <span class="fab fa-pinterest" aria-hidden="true"></span>
-                </a>
-                <a href="javascript:;" target="_blank" class="text-white opacity-8">
-                    <span class="fab fa-github" aria-hidden="true"></span>
                 </a>
             </div>
         </div>

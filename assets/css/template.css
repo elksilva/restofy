@@ -76,7 +76,7 @@
 
 body {
   margin: 0;
-  font-family: var(--bs-body-font-family);
+  font-family: "Roboto", sans-serif;
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -20727,7 +20727,7 @@ fieldset:disabled .btn {
 }
 
 .card .card-body {
-  font-family: "Malgun Gothic","맑은 고딕",dotum,verdana, tahoma, sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 1.5rem;
 }
 
@@ -25332,6 +25332,7 @@ html * {
 body {
   font-weight: 400;
   line-height: 1.6;
+  /* background-color: #f6f6f6; */
 }
 
 h1,
@@ -25446,7 +25447,7 @@ h3,
 .h3,
 .h3 {
   font-weight: 600;
-  font-family: "Malgun Gothic","맑은 고딕",dotum,verdana, tahoma, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h4,
@@ -25530,11 +25531,11 @@ p {
 }
 
 .text-sans-serif {
-  font-family: "Malgun Gothic","맑은 고딕",dotum,verdana, tahoma, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .text-monospace {
-  font-family: "Malgun Gothic","맑은 고딕",dotum,verdana, tahoma, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .text-justify {
@@ -27039,7 +27040,7 @@ pre[class*="language-"] {
   color: black;
   background: none;
   text-shadow: 0 1px white;
-  font-family: "Malgun Gothic","맑은 고딕",dotum,verdana, tahoma, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1em;
   text-align: left;
   white-space: pre;
@@ -29420,7 +29421,7 @@ pre[class*="language-"] {
   color: black;
   background: none;
   text-shadow: 0 1px white;
-  font-family: "Malgun Gothic","맑은 고딕",dotum,verdana, tahoma, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1em;
   text-align: left;
   white-space: pre;
@@ -33103,7 +33104,7 @@ Github: https://github.com/fiduswriter/Simple-DataTables
   border-radius: 5px;
   background: transparent;
   color: #ccc;
-  font-family: "Malgun Gothic","맑은 고딕",dotum,verdana, tahoma, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2.5em;
   cursor: pointer;
   justify-self: end;
@@ -34854,7 +34855,7 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-right {
  */
 .ql-container {
   box-sizing: border-box;
-  font-family: "Malgun Gothic","맑은 고딕",dotum,verdana, tahoma, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 13px;
   height: 100%;
   margin: 0px;
@@ -35315,11 +35316,11 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-right {
 }
 
 .ql-editor .ql-font-serif {
-  font-family: "Malgun Gothic","맑은 고딕",dotum,verdana, tahoma, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .ql-editor .ql-font-monospace {
-  font-family: "Malgun Gothic","맑은 고딕",dotum,verdana, tahoma, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .ql-editor .ql-size-small {
@@ -35858,11 +35859,11 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-right {
 }
 
 .ql-snow .ql-picker.ql-font .ql-picker-item[data-value=serif]::before {
-  font-family: "Malgun Gothic","맑은 고딕",dotum,verdana, tahoma, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .ql-snow .ql-picker.ql-font .ql-picker-item[data-value=monospace]::before {
-  font-family: "Malgun Gothic","맑은 고딕",dotum,verdana, tahoma, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .ql-snow .ql-picker.ql-size {
@@ -35914,7 +35915,7 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-right {
   border-top-right-radius: 0.375rem;
   border-top-left-radius: 0.375rem;
   box-sizing: border-box;
-  font-family: "Malgun Gothic","맑은 고딕",dotum,verdana, tahoma, sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 8px;
 }
 
@@ -37714,7 +37715,7 @@ text,
 .jvm-tooltip {
   border-radius: 3px;
   background-color: #5c5cff;
-  font-family: "Malgun Gothic","맑은 고딕",dotum,verdana, tahoma, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: smaller;
   box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.2);
   padding: 3px 5px;

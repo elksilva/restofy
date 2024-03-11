@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Obtener todos los botones de "ver más"
     const botonesVerMas = document.querySelectorAll(".ver-mas");
 
+    
     botonesVerMas.forEach(function(boton) {
       boton.addEventListener("click", function() {
         const parrafo = boton.previousElementSibling; 
@@ -15,11 +16,16 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     AOS.init();
-    
+
+    if(document.getElementById("btnIrAPrecios")){
+      document.getElementById("btnIrAPrecios").addEventListener("click", function() {
+        window.location.href = "precios.html";
+      });
+    }
+
 });
 
-document.getElementById("btnIrAPrecios").addEventListener("click", function() {
-  window.location.href = "precios.html";
-});
+
+  
 
   

@@ -157,3 +157,27 @@ p {
 .text-mi-color {
   color: #030b27; 
 }
+
+.centered-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.innovatech {
+  color: #fff !important;
+  font-size: 1.125rem !important;
+  text-align: center;
+  font-weight: 600 !important;
+  @media (min-width:  992px) { 
+    text-align: right;
+  }
+}
+.me-auto .innovatech {
+  font-weight: 700 !important;
+  color: #fff !important;
+  font-size: 1rem !important;
+  color: #fff !important;
+}
+.colorprecio {
+  color: #fff !important;
+}

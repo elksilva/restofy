@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
       });
     });
 
+    if(document.querySelector('.index-inicio'))
     AOS.init();
 
     if(document.getElementById("btnIrAPrecios")){
